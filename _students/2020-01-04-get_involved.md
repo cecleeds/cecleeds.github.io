@@ -1,8 +1,8 @@
 ---
 title: "Get involved"
-bg: thursday
+bg: peach
 color: white
-border-color: friday
+border-color: darkpink
 fa-icon: cog
 collection_type: "students"
 layout: all_collections

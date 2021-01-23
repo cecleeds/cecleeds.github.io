@@ -8,7 +8,7 @@ safe: false
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
 permalink: /:title ## disables post output
-baseurl: 
+baseurl:
 timezone: null
 lsi: false
 markdown: kramdown
@@ -46,12 +46,11 @@ colors:
   ckyellow:     '#febd2e'
   ckblue:       '#01a8ff'
   teal:         '#009688'
-  darkteal:     '#1de9b6'
-  blue:       '#002edf'
-  green:      '#63bd2f'
+  mint:       '#6cc99c'
+  peach:      '#e57373'
+  pink:       '#e91e63'
+  darkpink:   '#c2185b'
   purple:     '#c869bf'
-  orange:     '#fab125'
-  turquoise:  '#0fbfcf'
   cityorange: '#f29526'
   cityblue:   '#009ddf'
 
@@ -71,7 +70,7 @@ collections:
 
 sass:
   sass_dir: stylesheets/_sass/
-  
+
 jekyll_get_json:
   - data: cscalendar
     json: 'https://cecleeds.churchsuite.co.uk/embed/calendar/json'
