@@ -250,9 +250,9 @@ nav ul li:hover, nav ul li.active {
 .subtlecircle {
   text-align:center;
   z-index:3;
-  border-radius:50%;
-  -moz-border-radius:50%;
-  -webkit-border-radius:50%;
+  border-radius:10%;
+  -moz-border-radius:10%;
+  -webkit-border-radius:10%;
   box-shadow: 0px 1px 15px rgba(0,0,0,0.05);
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAF0lEQVQIHWP8//+/MQMaYELjg7kUCgIASm8DOqGzfp8AAAAASUVORK5CYII=);
 }
@@ -281,7 +281,7 @@ nav ul li:hover, nav ul li.active {
 }
 .sectiondivider .fa-circle { color: #fff; }
 
-.sectiondivider h5 {
+.sectiondivider h2 {
   font-size:15px;
   font-weight:700;
   text-transform:uppercase;
