@@ -130,6 +130,7 @@ Other singlepaged sites for ideas
   - [Helpers in Korea](https://itgame.github.io/) ([source](https://github.com/itgame/itgame.github.io))
   - Zeno- internet for gamers original teaser page: ([source](https://github.com/zenoio/zenoio.github.io))
   - Original DEVISSCHER web design page ([source](https://github.com/devisscher/templates/))
+  - [https://github.com/ryanoasis/nerd-fonts/tree/gh-pages](https://www.nerdfonts.com)
 - **Resumes:**
   - [magiciansanfrancisco.com](http://magiciansanfrancisco.com) professional page ([source](https://github.com/strongrobert/MagicianSanFrancisco))
   - [Lia Bogoev](https://bogoli.github.io/) UX designer from utah ([source](https://github.com/bogoli/bogoli.github.io))
@@ -138,8 +139,7 @@ Other singlepaged sites for ideas
   - [Leppotone Electrical Recordings](http://www.nathanmclaughlin.com/leppotone/) temporary homepage ([source](https://github.com/nathanmclaughlin/leppotone))
   - [Michael A. Schmidt](http://micha-a-schmidt.github.io/physics/) particle physics lecturer at the University of Sydney ([source](https://github.com/micha-a-schmidt/physics/))
   - [Jin Li](https://just4jin.github.io/) MS student in Systems and Information Engineering @ UVA ([source](https://github.com/just4jin/just4jin.github.io))
-  - [](https://www.nerdfonts.com)
-- *Let me know of more!*
+  - *Let me know of more!*
 
 
 ## Getting started
