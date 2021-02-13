@@ -390,11 +390,11 @@ nav ul li:hover, nav ul li.active {
     width:35px;
     height:35px;
     padding:15px;
-    top:-150px;
-    margin-left:-150px;
+    top:-100px;
+    margin-left:-50px;
   }
   .sectiondivider img {
-    width:150px;
+    width:100px;
     height:180px;
   }
   .sectiondivider .fa-stack {
