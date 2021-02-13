@@ -390,8 +390,8 @@ nav ul li:hover, nav ul li.active {
     width:35px;
     height:35px;
     padding:15px;
-    top:-100px;
-    margin-left:-50px;
+    top:-400px;
+    margin-left:-35px;
   }
   .sectiondivider img {
     width:100px;
