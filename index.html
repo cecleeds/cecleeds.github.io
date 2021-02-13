@@ -13,7 +13,6 @@ layout: mainpage
               <img src="img/{{page.icon}}" alt="section icon" />
             </i>
           </span>
-          <h2 class="icon-title">{{ page.title }}</h2>
         </div>
         {% elsif page.fa-icon %}
         <div class="subtlecircle sectiondivider faicon">
@@ -22,10 +21,10 @@ layout: mainpage
             <i class="fa fa-circle-thin fa-stack-2x"></i>
             <i class="fa fa-{{ page.fa-icon }} fa-stack-1x"></i>
           </span>
-          <h2 class="icon-title">{{ page.title }}</h2>
         </div>
         {% endif %}
         <div class="container {{ page.style }}">
+          <h2 class="icon-title">{{ page.title }}</h2>
           {{ page.content }}
         </div>
       </div>
