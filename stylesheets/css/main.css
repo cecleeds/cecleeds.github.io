@@ -253,7 +253,7 @@ nav ul li:hover, nav ul li.active {
   border-radius:50%;
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
-  box-shadow: 0px 1px 5px rgba(0,0,0,0.05);
+  box-shadow: 0px 1px 15px rgba(0,0,0,0.05);
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAF0lEQVQIHWP8//+/MQMaYELjg7kUCgIASm8DOqGzfp8AAAAASUVORK5CYII=);
 }
 
@@ -268,8 +268,8 @@ nav ul li:hover, nav ul li.active {
 }
 
 .sectiondivider img {
-  width:70px;
-  height:70px;
+  width:200px;
+  height:240px;
   position: static;
   margin-top: -20px;
 }
@@ -277,7 +277,7 @@ nav ul li:hover, nav ul li.active {
 .sectiondivider .fa-stack {
   font-size: 50px;
   position: static;
-  margin-top: -50px;
+  margin-top: -8px;
 }
 .sectiondivider .fa-circle { color: #fff; }
 
@@ -394,7 +394,7 @@ nav ul li:hover, nav ul li.active {
     margin-left:-30px;
   }
   .sectiondivider img {
-    width:100px;
+    width:150px;
     height:180px;
   }
   .sectiondivider .fa-stack {
