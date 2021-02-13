@@ -258,8 +258,8 @@ nav ul li:hover, nav ul li.active {
 }
 
 .sectiondivider {
-  width:60px;
-  height:60px;
+  width:80px;
+  height:80px;
   padding:15px;
   position:absolute;
   top:-135px;
@@ -387,8 +387,8 @@ nav ul li:hover, nav ul li.active {
 
   .section { padding:80px 0; }
   .sectiondivider {
-    width:50px;
-    height:50px;
+    width:80px;
+    height:80px;
     padding:0px;
     top:-50px;
     margin-left:-30px;
