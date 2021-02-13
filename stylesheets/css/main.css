@@ -277,7 +277,7 @@ nav ul li:hover, nav ul li.active {
 .sectiondivider .fa-stack {
   font-size: 50px;
   position: static;
-  margin-top: -8px;
+  margin-top: -1px;
 }
 .sectiondivider .fa-circle { color: #fff; }
 
