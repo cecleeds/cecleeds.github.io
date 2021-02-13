@@ -230,7 +230,7 @@ nav ul li:hover, nav ul li.active {
   display:block;
   width:100%;
   min-height:300px;
-  padding:210px 0;
+  padding:100px 0;
 }
 
 .section:first-of-type {
@@ -264,7 +264,7 @@ nav ul li:hover, nav ul li.active {
   position:absolute;
   top:-135px;
   left:50%;
-  margin-left:-135px;
+  margin-left:-50px;
 }
 
 .sectiondivider img {
