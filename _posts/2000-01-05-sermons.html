@@ -4,6 +4,17 @@ bg: sermons
 color: white
 border-color: video
 fa-icon: plug
+file: hhh.mp3
 ---
 
 {% include sermon_list.php %}
+
+<div>
+  <audio controls>
+    <source src="{{ page.file }}" type="audio/mp3">
+  </audio>
+</div>
+
+
+<script src="{{ site.baseurl }}/js/plyr.js"></script>
+<script>plyr.setup();</script>
