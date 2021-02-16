@@ -201,6 +201,7 @@
     &.section-left {
       margin-left: 50%;
     }
+  }
   .section-right {
     border-right: solid;
   }
@@ -225,7 +226,7 @@
       }
     }
   }
-}
+
 
 @media screen and (max-width: 767px) {
   #main {
