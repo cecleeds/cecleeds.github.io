@@ -1,8 +1,8 @@
 ---
 ---
 
-@import "base"
-@import "skeleton"
+@import "base";
+@import "skeleton";
 
 html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; }
@@ -417,4 +417,4 @@ nav ul li:hover, nav ul li.active {
   }
 }
 
-@import "custom"
+@import "custom";
