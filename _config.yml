@@ -9,8 +9,8 @@ safe: false
 remote_theme: woodcock3/city-jekyll
 exclude: [CNAME, README.md, npm.md, SECURITY.md, LICENSE.md, .gitignore, package.json, package-lock.json, postcss.config.js, .browserslistrc]
 permalink: /:title ## disables post output
-url: "https://woodcock3.github.io"
-baseurl: "/city-jekyll"
+url: "https://cecleeds.github.io"
+baseurl: "/"
 timezone: null
 lsi: false
 markdown: kramdown
@@ -18,7 +18,7 @@ highlighter: rouge
 
 
 ### content configuration ###
-title:              "City-Jekyll"
+title:              "City Evangelical Church"
 keywords:           "City, evangelical, church, Leeds, best, christian, Jesus, bible, gospel, Christ, God, Faith, Lord"
 description:        "A Jekyll theme &amp; Sass Boilerplate"
 author:             "woodcock3"
@@ -57,16 +57,6 @@ collections:
   home:
     output: true
     permalink: /
-  sunday:
-    output: true
-    permalink: /sunday/
-  media:
-    output: true
-    permalink: /media/
-  docs:
-    output: true
-    permalink: /docs/
-
 
 ### sass
 sass:
