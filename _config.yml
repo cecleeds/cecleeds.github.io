@@ -57,6 +57,12 @@ collections:
   home:
     output: true
     permalink: /
+  sunday:
+    output: true
+    permalink: /sunday/
+  media:
+    output: true
+    permalink: /media/
 
 ### sass
 sass:
