@@ -70,7 +70,6 @@ sass:
   style: expanded
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-postcss-v2
 
 ### Import a json feed as data
