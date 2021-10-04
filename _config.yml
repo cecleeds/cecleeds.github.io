@@ -71,7 +71,7 @@ sass:
 
 plugins:
   - jekyll-postcss-v2
-  - Jekyll-remote-theme
+  - jekyll-remote-theme
 
 ### Import a json feed as data
 ### Uses https://rss2json.com
