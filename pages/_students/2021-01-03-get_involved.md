@@ -1,11 +1,9 @@
 ---
 title: "Get involved"
-bg: peach
-color: white
-border-color: darkpink
-fa-icon: cog
 collection_type: "students"
-layout: all_collections
+layout: sectioned-page
+container-size: medium
+heading: 1
 ---
 
 <div class="section-lines section-top section-left"></div>
