@@ -24,5 +24,3 @@ Our north Leeds growth group is currently meeting face to face and using Zoom, c
 <div class="text-center">
   {{ site.data.contact.studentmail }}
 </div>
-
-Which ever church you join and get involved with, we hope you have a fantastic time and you to be more like the Lord Jesus. 
