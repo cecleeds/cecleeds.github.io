@@ -1,12 +1,11 @@
 ---
-title: "City Students"
+title: "In Leeds for university? We’d love to welcome you!"
 collection_type: "students"
 layout: sectioned-page
 container-size: medium
 heading: 1
 ---
 
-# In Leeds for university? We’d love to welcome you!
 Whether you’re a keen Christian or a sceptic trying to figure out the big questions of life, we want to give you the chance to develop spiritually – by learning from the Bible about who Jesus is, and what life with him is all about. We believe this happens best in the context of loving church community, where real friendships can be cultivated both with other students and with the wider church family! 
 
 
