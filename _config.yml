@@ -66,7 +66,7 @@ collections:
     permalink: /whats-on/
   about-us:
     output: true
-    permalink: /about-us/
+    permalink: /about/
   connect:
     output: true
     permalink: /connect/
