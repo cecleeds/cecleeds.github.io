@@ -1,17 +1,10 @@
 ---
 title: "City Students"
-bg: teal
-color: white
 collection_type: "students"
-layout: all_collections
+layout: sectioned-page
+container-size: medium
+heading: 1
 ---
-
-<div class="hero-image-max">
-  <img src="{{ 'img/students/gary-butterfield-71AzA4GF2ok-unsplash.jpg' | relative_url }}">
-  <div class="col m12 hero-text">
-    <h1><strong>Students</strong></h1>
-  </div>
-</div>
 
 # In Leeds for university? We’d love to welcome you!
 Whether you’re a keen Christian or a sceptic trying to figure out the big questions of life, we want to give you the chance to develop spiritually – by learning from the Bible about who Jesus is, and what life with him is all about. We believe this happens best in the context of loving church community, where real friendships can be cultivated both with other students and with the wider church family! 
