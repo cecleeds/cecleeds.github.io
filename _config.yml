@@ -63,7 +63,7 @@ collections:
     permalink: /sunday/
   whats-on:
     output: true
-    permalink: /wants-on/
+    permalink: /whats-on/
   about-us:
     output: true
     permalink: /about-us/
