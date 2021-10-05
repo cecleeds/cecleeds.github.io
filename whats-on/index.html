@@ -20,7 +20,7 @@
     <meta name="theme-color" content="#259cd3">
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
   <script src="/assets/js/contacts.js?v=1633418461"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
 </head>
 <body>
 
@@ -81,12 +81,12 @@
         <ul>
           <li><a href="/" class="animate-nav-link">Home</a></li>
           <li><a href="/sunday/" class="animate-nav-link">Sunday</a></li>
-          <li><a href="/whats-on/" class="animate-nav-link">What's on</a></li>
+          <li><a href="/whats-on/" class="animate-nav-link current">What's on</a></li>
           <li><a href="/about/" class="animate-nav-link">About us</a></li>
           <li><a href="/connect/" class="animate-nav-link">Connect</a></li>
           <li><a href="/under18/" class="animate-nav-link">Kids + Youth</a></li>
           <li><a href="/students/" class="animate-nav-link">Students</a></li>
-          <li><a href="/media/" class="animate-nav-link current">Media</a></li>
+          <li><a href="/media/" class="animate-nav-link">Media</a></li>
         </ul>
       </div>
     </div>
@@ -106,7 +106,7 @@
       <ul class="navbar-menu">
         <li><a href="/" class="animate-nav-link">Home</a></li>
         <li><a href="/sunday/" class="animate-nav-link">Sunday</a></li>
-        <li><a href="/whats-on/" class="animate-nav-link">What's on</a></li>
+        <li><a href="/whats-on/" class="animate-nav-link current">What's on</a></li>
         <li><a href="/about/" class="animate-nav-link">About us</a></li>
       </ul>
     </div>
@@ -115,7 +115,7 @@
         <li><a href="/connect/" class="animate-nav-link">Connect</a></li>
         <li><a href="/under18/" class="animate-nav-link">Kids + Youth</a></li>
         <li><a href="/students/" class="animate-nav-link">Students</a></li>
-        <li><a href="/media/" class="animate-nav-link current">Media</a></li>
+        <li><a href="/media/" class="animate-nav-link">Media</a></li>
       </ul>
     </div>
   </div>
@@ -129,175 +129,82 @@
 
   </div>
   <div class="hero-text">
-    <h1 class="hero-text-h1">MEDIA</h1>
+    <h1 class="hero-text-h1">WHATS-ON</h1>
   </div>
 </section>
 <nav>
   <div class="second-nav medium-container padding-top">
     <ul class="flex-row text-center">
-      <li class="p-video flex-small justify-center"><a class="animate-nav-link" href="#video">Videos</a></li>
     </ul>
     <hr>
   </div>
 </nav>
 
-  <section id="sermons" class="content-section alternate-background">
+  <section id="calend" class="content-section ">
     <article>
-      <div class="medium-container "><h1>SERMONS</h1>
-        <?php include("/home/ceclee/public_html/php/sermons/include.php"); ?>
-
-
+      <div class="medium-container "><h1>CALENDAR</h1>
+        <div class="timeline">
+  <ul>
+    <li>
+      <div class="date">
+        <span>10</span>
+        <span id="month">Oct</span>
       </div>
-    </article>
-  </section>
-  <section id="video" class="content-section alternate-background">
-    <article>
-      <div class="medium-container "><h1>VIDEOS</h1>
-        <h2>Recent services</h2>
-
-<p>Catch up on our recent Sunday morning services if you could not come or missed the live stream.</p>
-
-<h3>Morning service on  26th September 2021</h3>
-
-<div class="icontain">
-    <iframe class="lozad" title="City Evangelical Church morning service  26th September 2021" data-src="https://www.youtube-nocookie.com/embed/kFZOX-WLgqk" allowfullscreen="">
-    </iframe>
-  </div>
-
-<h2>Catch up videos</h2>
-
-<div class="slider-wrapper">
-  <ul class="flex-row-slider align-stretch" data-snap-slider="video-slider-link"> 
-    <li class="flex-small sm-half flex-medium med-one-third flex-large lg-one-fourth">
-      <div class="card-audio carousel-snap" id="yt-play-button">
-        <div class="icontain-border-radius-top">
-          <iframe class="lozad" id="yt-play" title="City Evangelical Church morning service  19th September 2021" data-src="https://www.youtube-nocookie.com/embed/F_EWvV0A2jg?enablejsapi=1" allowfullscreen="">
-          </iframe>
-        </div>
-        <article>
-          <button class="muted-button">
-            <h2> Morning service on  19th September 2021</h2>
-            <span></span>
-          </button>
-        </article>
+      <div class="calendar-title">
+        <span>Morning Service</span><br />
+        <span id="calendar-subtitle">10:45 AM</span>
       </div>
     </li>
-    <li class="flex-small sm-half flex-medium med-one-third flex-large lg-one-fourth">
-      <div class="card-audio carousel-snap" id="yt-play-button">
-        <div class="icontain-border-radius-top">
-          <iframe class="lozad" id="yt-play" title="City Evangelical Church morning service  12th September 2021" data-src="https://www.youtube-nocookie.com/embed/Xx32uY5H4II?enablejsapi=1" allowfullscreen="">
-          </iframe>
-        </div>
-        <article>
-          <button class="muted-button">
-            <h2> Morning service on  12th September 2021</h2>
-            <span></span>
-          </button>
-        </article>
+    <li>
+      <div class="date">
+        <span>10</span>
+        <span id="month">Oct</span>
+      </div>
+      <div class="calendar-title">
+        <span>Evening Service</span><br />
+        <span id="calendar-subtitle">06:30 PM</span>
       </div>
     </li>
-    <li class="flex-small sm-half flex-medium med-one-third flex-large lg-one-fourth">
-      <div class="card-audio carousel-snap" id="yt-play-button">
-        <div class="icontain-border-radius-top">
-          <iframe class="lozad" id="yt-play" title="City Evangelical Church morning service  5th September 2021" data-src="https://www.youtube-nocookie.com/embed/83w30jaBUr4?enablejsapi=1" allowfullscreen="">
-          </iframe>
-        </div>
-        <article>
-          <button class="muted-button">
-            <h2> Morning service on  5th September 2021</h2>
-            <span></span>
-          </button>
-        </article>
+    <li>
+      <div class="date">
+        <span>17</span>
+        <span id="month">Oct</span>
+      </div>
+      <div class="calendar-title">
+        <span>Morning Service</span><br />
+        <span id="calendar-subtitle">10:45 AM</span>
       </div>
     </li>
-    <li class="flex-small sm-half flex-medium med-one-third flex-large lg-one-fourth">
-      <div class="card-audio carousel-snap" id="yt-play-button">
-        <div class="icontain-border-radius-top">
-          <iframe class="lozad" id="yt-play" title="City Evangelical Church morning service  29th August 2021" data-src="https://www.youtube-nocookie.com/embed/cH4CH_snLhY?enablejsapi=1" allowfullscreen="">
-          </iframe>
-        </div>
-        <article>
-          <button class="muted-button">
-            <h2> Morning service on  29th August 2021</h2>
-            <span></span>
-          </button>
-        </article>
+    <li>
+      <div class="date">
+        <span>17</span>
+        <span id="month">Oct</span>
+      </div>
+      <div class="calendar-title">
+        <span>Evening Service</span><br />
+        <span id="calendar-subtitle">06:30 PM</span>
       </div>
     </li>
-    <li class="flex-small sm-half flex-medium med-one-third flex-large lg-one-fourth">
-      <div class="card-audio carousel-snap" id="yt-play-button">
-        <div class="icontain-border-radius-top">
-          <iframe class="lozad" id="yt-play" title="City Evangelical Church morning service  22nd August 2021" data-src="https://www.youtube-nocookie.com/embed/WI9X2t-MlNs?enablejsapi=1" allowfullscreen="">
-          </iframe>
-        </div>
-        <article>
-          <button class="muted-button">
-            <h2> Morning service on  22nd August 2021</h2>
-            <span></span>
-          </button>
-        </article>
+    <li>
+      <div class="date">
+        <span>24</span>
+        <span id="month">Oct</span>
+      </div>
+      <div class="calendar-title">
+        <span>Morning Service</span><br />
+        <span id="calendar-subtitle">10:45 AM</span>
       </div>
     </li>
-    <li class="flex-small sm-half flex-medium med-one-third flex-large lg-one-fourth">
-      <div class="card-audio carousel-snap" id="yt-play-button">
-        <div class="icontain-border-radius-top">
-          <iframe class="lozad" id="yt-play" title="City Evangelical Church morning service  15th August 2021" data-src="https://www.youtube-nocookie.com/embed/wYR5RxUm0O4?enablejsapi=1" allowfullscreen="">
-          </iframe>
-        </div>
-        <article>
-          <button class="muted-button">
-            <h2> Morning service on  15th August 2021</h2>
-            <span></span>
-          </button>
-        </article>
+    <li>
+      <div class="date">
+        <span>24</span>
+        <span id="month">Oct</span>
+      </div>
+      <div class="calendar-title">
+        <span>Evening Service</span><br />
+        <span id="calendar-subtitle">06:30 PM</span>
       </div>
     </li>
-    <li class="flex-small sm-half flex-medium med-one-third flex-large lg-one-fourth">
-      <div class="card-audio carousel-snap" id="yt-play-button">
-        <div class="icontain-border-radius-top">
-          <iframe class="lozad" id="yt-play" title="City Evangelical Church morning service  8th August 2021" data-src="https://www.youtube-nocookie.com/embed/KbNqcEewdvw?enablejsapi=1" allowfullscreen="">
-          </iframe>
-        </div>
-        <article>
-          <button class="muted-button">
-            <h2> Morning service on  8th August 2021</h2>
-            <span></span>
-          </button>
-        </article>
-      </div>
-    </li>
-    <li class="flex-small sm-half flex-medium med-one-third flex-large lg-one-fourth">
-      <div class="card-audio carousel-snap" id="yt-play-button">
-        <div class="icontain-border-radius-top">
-          <iframe class="lozad" id="yt-play" title="City Evangelical Church morning service  1st August 2021" data-src="https://www.youtube-nocookie.com/embed/cZeoA7uu0XU?enablejsapi=1" allowfullscreen="">
-          </iframe>
-        </div>
-        <article>
-          <button class="muted-button">
-            <h2> Morning service on  1st August 2021</h2>
-            <span></span>
-          </button>
-        </article>
-      </div>
-    </li>
-    <li class="flex-small sm-half flex-medium med-one-third flex-large lg-one-fourth">
-      <div class="card-audio carousel-snap" id="yt-play-button">
-        <div class="icontain-border-radius-top">
-          <iframe class="lozad" id="yt-play" title="City Evangelical Church morning service  25th July 2021" data-src="https://www.youtube-nocookie.com/embed/bVJb-W2XM6s?enablejsapi=1" allowfullscreen="">
-          </iframe>
-        </div>
-        <article>
-          <button class="muted-button">
-            <h2> Morning service on  25th July 2021</h2>
-            <span></span>
-          </button>
-        </article>
-      </div>
-    </li>
-  </ul>
-  <ul class="slider-nav" data-snap-slider-nav="video-slider-link">
-    <li><button class="muted-button" type="button">&#10096;<span class="screen-reader-text">Previous filmed service</span></button></li>
-    <li><button class="muted-button" type="button">&#10097;<span class="screen-reader-text">Next filmed service</span></button></li>
   </ul>
 </div>
 
