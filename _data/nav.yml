@@ -64,7 +64,7 @@ footer:
   policy:
     - text: Privacy
       href: /privacy/
-    - text: City-Jekyll Docs
+    - text: Site docs
       href: https://woodcock3.github.io/city-jekyll/docs/
     - text: Cookies
       href: /cookies/
