@@ -61,6 +61,9 @@ collections:
   sunday:
     output: true
     permalink: /sunday/
+  students:
+    output: true
+    permalink: /students/
   media:
     output: true
     permalink: /media/
