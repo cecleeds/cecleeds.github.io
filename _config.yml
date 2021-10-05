@@ -61,6 +61,18 @@ collections:
   sunday:
     output: true
     permalink: /sunday/
+  whats-on:
+    output: true
+    permalink: /wants-on/
+  about-us:
+    output: true
+    permalink: /about-us/
+  connect:
+    output: true
+    permalink: /connect/
+  kids-youth:
+    output: true
+    permalink: /under18/
   students:
     output: true
     permalink: /students/
