@@ -16,10 +16,11 @@ The CU is a fantastic opportunity to tell others about Christ and to be encourag
 
 Growth groups
 
-7:45 or 8pm  We've got two small groups in north Leeds. 
+At: 7:45pm  
+Location: We've got one bible study groups in north Leeds. 
 
-Our growth groups are currently meeting using Zoom, contact the Student Team for further details.
+Our north Leeds growth group is currently meeting face to face and using Zoom, contact the Student Team for further details.
 
  <div class="text-center">
-   <a class="button accent-button" href="youtube/?live=1">Email student team</a>
+   <a class="button accent-button" href="{{ site.data.contact.studentmail }}">Email student team</a>
  </div>
