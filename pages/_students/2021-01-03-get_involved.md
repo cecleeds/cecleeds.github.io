@@ -14,7 +14,7 @@ The CU is a fantastic opportunity to tell others about Christ and to be encourag
    <a class="button accent-button" href="https://www.uccf.org.uk/christian-unions">Find a CU</a>
  </div>
 
-Growth groups
+## Growth groups
 
 At: 7:45pm  
 Location: We've got one bible study groups in north Leeds. 
