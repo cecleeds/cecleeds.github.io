@@ -10,9 +10,9 @@ heading: 1
 
 The CU is a fantastic opportunity to tell others about Christ and to be encouraged so, if your university has one please get involved!
 
- <div class="text-center">
-   <a class="button accent-button" href="https://www.uccf.org.uk/christian-unions">Find a CU</a>
- </div>
+  <div class="text-center">
+    <a class="button accent-button" href="https://www.uccf.org.uk/christian-unions">Find a CU</a>
+  </div>
 
 ## Growth groups
 
@@ -21,6 +21,6 @@ Location: We've got one bible study groups in north Leeds.
 
 Our north Leeds growth group is currently meeting face to face and using Zoom, contact the Student Team for further details.
 
- <div class="text-center">
-   <a class="button accent-button" href="{{ site.data.contact.studentmail }}">Email student team</a>
- </div>
+  <div class="text-center">
+    <a class="button accent-button" href="{{ site.data.contact.studentmail }}">Email student team</a>
+  </div>
