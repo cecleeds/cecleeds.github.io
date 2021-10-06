@@ -1,5 +1,9 @@
 ---
-title: Safeguarding
+title: "Safeguarding"
+collection_type: "kids-youth"
+layout: sectioned-page
+container-size: medium
+heading: 1
 ---
 
 Jesus knows what it’s like to be vulnerable and suffer abuse. We believe it’s important to protect the vulnerable whether young or old from abuse. Learn more about how we protect the vulnerable in our safeguarding policy.
