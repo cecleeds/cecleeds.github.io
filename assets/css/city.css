@@ -1846,7 +1846,6 @@ caption {
   position: relative;
   margin: 0;
   padding: 0;
-  padding-bottom: 0;
 }
 
 .round-accordion li, .muted-accordion li, .square-accordion li, .accent-accordion li, .accordion li {
@@ -1861,13 +1860,12 @@ caption {
 .round-accordion li label, .muted-accordion li label, .square-accordion li label, .accent-accordion li label, .accordion li label {
   display: flex;
   cursor: pointer;
-  padding: 0.75rem 2.4rem 0.75rem 0;
+  padding: 0.75rem 2.4rem 0.75rem 1.1rem;
   margin: 0;
   color: #ffffff;
   background: #259cd3;
   border-radius: 4px;
   margin-bottom: 3px;
-  padding-left: 1.1rem;
 }
 
 .round-accordion li label:hover, .muted-accordion li label:hover, .square-accordion li label:hover, .accent-accordion li label:hover, .accordion li label:hover {
@@ -1876,9 +1874,8 @@ caption {
 
 .round-accordion li .accord-content, .muted-accordion li .accord-content, .square-accordion li .accord-content, .accent-accordion li .accord-content, .accordion li .accord-content {
   display: none;
-  padding-bottom: 1.2rem;
   background: white;
-  padding-left: 1.1rem;
+  padding: 1.1rem;
 }
 
 .round-accordion li input:checked + label, .muted-accordion li input:checked + label, .square-accordion li input:checked + label, .accent-accordion li input:checked + label, .accordion li input:checked + label {
