@@ -2149,7 +2149,7 @@ caption {
   color: rgba(255, 255, 255, 0.9);
 }
 
-.card-image, .card-audio thumb-title, .card-audio {
+.card-image, .card-media {
   background: black;
   text-decoration: none;
   color: #cdcdcd;
@@ -2164,13 +2164,13 @@ caption {
   /* typography */
 }
 
-.card-image:hover, .card-audio thumb-title:hover, .card-audio:hover {
+.card-image:hover, .card-media:hover {
   top: -2px;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
   transform: scale(1.03);
 }
 
-.card-image article, .card-audio article {
+.card-image article, .card-media article {
   padding: 20px;
   display: flex;
   flex-flow: column nowrap;
@@ -2178,7 +2178,7 @@ caption {
   flex: 1;
 }
 
-.card-image .thumb, .card-audio .thumb {
+.card-image .thumb, .card-media .thumb {
   padding-bottom: 60%;
   background-size: cover;
   background-position: center center;
@@ -2190,20 +2190,20 @@ caption {
   border-top-left-radius: 20px;
 }
 
-.card-image p, .card-audio p {
+.card-image p, .card-media p {
   flex: 1;
   /* make p grow to fill available space*/
   line-height: 1.4;
 }
 
-.card-image h2, .card-audio h2 {
+.card-image h2, .card-media h2 {
   font-size: 1.25rem;
   margin: 0;
   color: #cdcdcd;
   text-align: left;
 }
 
-.card-image span, .card-audio span {
+.card-image span, .card-media span {
   font-size: 0.75rem;
   font-weight: bold;
   color: #fafafa;
@@ -2212,31 +2212,35 @@ caption {
   margin: 1.5rem 0 0 0;
 }
 
-.card-image.span:hover, .card-audio thumb-title:hover, .span.card-audio:hover, .card-image.span:active, .card-audio thumb-title:active, .span.card-audio:active, .card-image.span:focus, .card-audio thumb-title:focus, .span.card-audio:focus {
+.card-image.span:hover, .span.card-media:hover, .card-image.span:active, .span.card-media:active, .card-image.span:focus, .span.card-media:focus {
   text-decoration: none;
 }
 
-.card-audio .thumb {
+.card-media .thumb {
   padding-bottom: 15%;
   padding-top: 15%;
 }
 
-.card-audio .thumb-title {
+.card-media .thumb-title {
   color: #fafafa;
   font-size: 1rem;
 }
 
-.card-audio h2 {
+.card-media h2 {
   font-size: 0.75rem;
 }
 
-.card-audio p {
+.card-media p {
   font-size: 0.6rem;
 }
 
-.card-audio span {
+.card-media span {
   font-size: 0.5rem;
   margin: 1rem 0 0 0;
+}
+
+.card-media thumb-title:hover, .card-media thumb-title:active, .card-media thumb-title:focus {
+  text-decoration: none;
 }
 
 /* Preloader screen */
