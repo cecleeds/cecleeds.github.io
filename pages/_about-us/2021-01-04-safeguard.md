@@ -1,5 +1,5 @@
 ---
-title: "What we believe"
+title: "Safeguarding"
 collection_type: "about-us"
 layout: sectioned-page
 container-size: medium
