@@ -54,8 +54,8 @@ jobs:
         uses: woodcock3/yaml-update-action@master
         with:
           valueFile: '_config.yml'
-          propertyPath: 'url'
-          value: 'https://cecleeds.co.uk'
+          propertyPath: 'environment'
+          value: 'deployment'
           commitChange: false
           updateFile: true
       # use jekyll-action-ts to build
