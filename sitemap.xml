@@ -7,7 +7,7 @@ layout: null
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {%- for primary in site.data.nav.primary %}
   <url>
-    <loc>{{ site.publishurl }}{{ primary.href | relative_url }}</loc>
+    <loc>{% if site.environment == "deployment" %}{{ site.deployurl }}{{ primary.href | relative_url }}{% else %}{{ site.url }}{{ primary.href | relative_url }}{% endif %}</loc>
     {%- if primary.lastmod == null %}
     <lastmod>{{ "now" | date: "%Y-%m-%d %H:%M" | date_to_xmlschema }}</lastmod>
     {%- else %}
@@ -24,7 +24,7 @@ layout: null
   {%- for doc in site.documents %}
   {%- if doc.sitemap == true %}
   <url>
-    <loc>{{ site.publishurl }}{{ doc.url | relative_url }}</loc>
+    <loc>{% if site.environment == "deployment" %}{{ site.deployurl }}{{ primary.href | relative_url }}{% else %}{{ site.url }}{{ primary.href | relative_url }}{% endif %}</loc>
     {%- if doc.lastmod == null %}
     <lastmod>{{ "now" | date: "%Y-%m-%d %H:%M" | date_to_xmlschema }}</lastmod>
     {%- else %}
@@ -38,7 +38,7 @@ layout: null
   {%- for page in site.pages %}
   {%- if page.sitemap != null and page.sitemap != empty %}
   <url>
-    <loc>{{ site.publishurl }}{{ page.url | relative_url }}</loc>
+    <loc>{% if site.environment == "deployment" %}{{ site.deployurl }}{{ primary.href | relative_url }}{% else %}{{ site.url }}{{ primary.href | relative_url }}{% endif %}</loc>
     <lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
     <changefreq>{{ page.sitemap.changefreq }}</changefreq>
     <priority>{{ page.sitemap.priority }}</priority>
