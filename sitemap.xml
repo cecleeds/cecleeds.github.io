@@ -24,7 +24,7 @@ layout: null
   {%- for doc in site.documents %}
   {%- if doc.sitemap == true %}
   <url>
-    <loc>{% if site.environment == "deployment" %}{{ site.deployurl }}{{ primary.href | relative_url }}{% else %}{{ site.url }}{{ primary.href | relative_url }}{% endif %}</loc>
+    <loc>{% if site.environment == "deployment" %}{{ site.deployurl }}{{ doc.url | relative_url }}{% else %}{{ site.url }}{{ doc.url | relative_url }}{% endif %}</loc>
     {%- if doc.lastmod == null %}
     <lastmod>{{ "now" | date: "%Y-%m-%d %H:%M" | date_to_xmlschema }}</lastmod>
     {%- else %}
@@ -38,7 +38,7 @@ layout: null
   {%- for page in site.pages %}
   {%- if page.sitemap != null and page.sitemap != empty %}
   <url>
-    <loc>{% if site.environment == "deployment" %}{{ site.deployurl }}{{ primary.href | relative_url }}{% else %}{{ site.url }}{{ primary.href | relative_url }}{% endif %}</loc>
+    <loc>{% if site.environment == "deployment" %}{{ site.deployurl }}{{ page.url | relative_url }}{% else %}{{ site.url }}{{ page.url | relative_url }}{% endif %}</loc>
     <lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
     <changefreq>{{ page.sitemap.changefreq }}</changefreq>
     <priority>{{ page.sitemap.priority }}</priority>
