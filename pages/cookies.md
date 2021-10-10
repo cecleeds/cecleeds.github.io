@@ -21,7 +21,7 @@ Below is a list of the cookies we use and what they do:
 
 ## Google Analytics
 
-This website uses Google Analytics. This happens only if you approve third party analytics cookies. If you approve Google Analytics will stores several cookies on your computer or mobile. We use Google Analytics to collect information about how our website performs and how our users, in general, navigate through and use {{ site.publishurl | remove_first: "https://" }}. This helps us evaluate how you use our website, compile statistical reports on activity, and improve our content and website performance.
+This website uses Google Analytics. This happens only if you approve third party analytics cookies. If you approve Google Analytics will stores several cookies on your computer or mobile. We use Google Analytics to collect information about how our website performs and how our users, in general, navigate through and use {% if site.environment == "deployment" %}{{ site.deployurl | remove_first: "https://" }}{% else %}{{ site.url | remove_first: "https://" }}{% endif %}. This helps us evaluate how you use our website, compile statistical reports on activity, and improve our content and website performance.
 
 The information we collect includes:
 
