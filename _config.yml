@@ -12,7 +12,7 @@ permalink: /:title ## disables post output
 url: "https://cecleeds.github.io"
 baseurl: "/"
 deployurl: "https://cecleeds.co.uk" ## use if deploying site to an external server
-environment: development ## if environment = deployment then cookie-consent.html, sitemap.xml & robot.txt use site.deployurl instead of site.url 
+environment: development ## if environment = deployment then cookies.md, cookie-consent.html, sitemap.xml & robot.txt use site.deployurl instead of site.url 
 timezone: null
 lsi: false
 markdown: kramdown
