@@ -4,6 +4,7 @@ collection_type: "connect"
 layout: sectioned-page
 container-size: medium
 heading: 1
+bg-color: alternate-background
 href: https://cecleeds.churchsuite.com/forms/6og31t0v
 ---
 
