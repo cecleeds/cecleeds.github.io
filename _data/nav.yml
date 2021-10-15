@@ -22,7 +22,7 @@ home_hero_buttons:
   - text: Sunday
     href: /sunday/
   - text: I'm new
-    href: /connect/
+    href: /connect/#new
   - text: Catch up
     href: /media/
 
