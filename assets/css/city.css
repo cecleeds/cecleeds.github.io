@@ -1507,14 +1507,14 @@ dd {
   color: #f19426;
 }
 
-.curved-bg-bottom .text-blue, .curved-bg-top .text-blue, .alternate-background .text-blue,
-.bg-navy .text-blue,
-.bg-black .text-blue,
-.bg-dark .text-blue,
-.bg-primary .text-blue,
-.bg-secondary .text-blue,
-.bg-third .text-blue {
-  color: #259cd3;
+.curved-bg-bottom .text-link, .curved-bg-top .text-link, .alternate-background .text-link,
+.bg-navy .text-link,
+.bg-black .text-link,
+.bg-dark .text-link,
+.bg-primary .text-link,
+.bg-secondary .text-link,
+.bg-third .text-link {
+  color: black;
 }
 
 .curved-bg-bottom, .curved-bg-top {
