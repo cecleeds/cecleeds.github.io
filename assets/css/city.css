@@ -1514,7 +1514,7 @@ dd {
 .bg-primary .text-blue,
 .bg-secondary .text-blue,
 .bg-third .text-blue {
-  colour: #259cd3;
+  color: #259cd3;
 }
 
 .curved-bg-bottom, .curved-bg-top {
