@@ -1431,32 +1431,90 @@ dd {
   -moz-text-fill-color: transparent;
 }
 
-.curved-bg-bottom, .curved-bg-top, .alternate-background {
+.curved-bg-bottom, .curved-bg-top, .alternate-background,
+.bg-navy,
+.bg-black,
+.bg-dark,
+.bg-primary,
+.bg-secondary,
+.bg-third {
   background: #404040;
   color: #fafafa;
 }
 
 .curved-bg-bottom h1, .curved-bg-top h1, .alternate-background h1,
+.bg-navy h1,
+.bg-black h1,
+.bg-dark h1,
+.bg-primary h1,
+.bg-secondary h1,
+.bg-third h1,
 .curved-bg-bottom h2,
 .curved-bg-top h2,
 .alternate-background h2,
+.bg-navy h2,
+.bg-black h2,
+.bg-dark h2,
+.bg-primary h2,
+.bg-secondary h2,
+.bg-third h2,
 .curved-bg-bottom h3,
 .curved-bg-top h3,
 .alternate-background h3,
+.bg-navy h3,
+.bg-black h3,
+.bg-dark h3,
+.bg-primary h3,
+.bg-secondary h3,
+.bg-third h3,
 .curved-bg-bottom h4,
 .curved-bg-top h4,
 .alternate-background h4,
+.bg-navy h4,
+.bg-black h4,
+.bg-dark h4,
+.bg-primary h4,
+.bg-secondary h4,
+.bg-third h4,
 .curved-bg-bottom h5,
 .curved-bg-top h5,
 .alternate-background h5,
+.bg-navy h5,
+.bg-black h5,
+.bg-dark h5,
+.bg-primary h5,
+.bg-secondary h5,
+.bg-third h5,
 .curved-bg-bottom select,
 .curved-bg-top select,
-.alternate-background select {
+.alternate-background select,
+.bg-navy select,
+.bg-black select,
+.bg-dark select,
+.bg-primary select,
+.bg-secondary select,
+.bg-third select {
   color: #fafafa;
 }
 
-.curved-bg-bottom p a, .curved-bg-top p a, .alternate-background p a {
+.curved-bg-bottom p a, .curved-bg-top p a, .alternate-background p a,
+.bg-navy p a,
+.bg-black p a,
+.bg-dark p a,
+.bg-primary p a,
+.bg-secondary p a,
+.bg-third p a {
   color: #f19426;
+}
+
+.curved-bg-bottom .text-blue, .curved-bg-top .text-blue, .alternate-background .text-blue,
+.bg-navy .text-blue,
+.bg-black .text-blue,
+.bg-dark .text-blue,
+.bg-primary .text-blue,
+.bg-secondary .text-blue,
+.bg-third .text-blue {
+  colour: #259cd3;
 }
 
 .curved-bg-bottom, .curved-bg-top {
@@ -1493,7 +1551,7 @@ dd {
 }
 
 .bg-primary {
-  background: radial-gradient(#61bae3, #1a6c92);
+  background: radial-gradient(#61bae3, #165c7c);
 }
 
 .bg-dark {
