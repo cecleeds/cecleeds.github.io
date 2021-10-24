@@ -13,5 +13,5 @@ For those who would prefer, two groups are currently meeting at church socially 
 Our growth groups are a great way to meet with a small group from City to study the Bible together, pray and develop deeper relationships with each other. Please get in touch with the growth group co-ordinator if you would like to join a group.
 
 <div class="text-center">
-  <a class="button accent-button" href="">Contact growth group co-ordinator</a>
+  <a class="button accent-button" href="">Contact growth group coordinator</a>
 </div>
