@@ -6,7 +6,7 @@ container-size: medium
 heading: 1
 ---
 
-We meet in various homes around Beeston and North Leeds every fortnight on Tuesday, Wednesday and Thursday evenings (except on the first week of the month when it's the church prayer meetings. 
+We meet in various homes around Beeston and North Leeds every fortnight on Tuesday, Wednesday and Thursday evenings (except on the first week of the month when it's the church prayer meetings). 
 
 For those who would prefer, two groups are currently meeting at church socially distanced and most groups are continuing face to face and via zoom.
 
