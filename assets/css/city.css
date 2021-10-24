@@ -1392,8 +1392,10 @@ dd {
   overflow: hidden;
 }
 
-.font-sanchez {
+.font-impact {
   font-family: Sanchez-regular;
+  font-size: 1.1rem;
+  color: #b4b4b4;
 }
 
 /* ===========================
