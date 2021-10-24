@@ -1030,6 +1030,10 @@ blockquote {
   background: #b8e0f3;
 }
 
+blockquote p {
+  margin-bottom: 0;
+}
+
 blockquote cite {
   display: block;
   margin-top: 1.5rem;
