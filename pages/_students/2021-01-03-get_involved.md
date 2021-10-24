@@ -18,7 +18,7 @@ The CU is a fantastic opportunity to tell others about Christ and to be encourag
 
 <div class="text-center">
   <p class="font-impact no-padding-bottom">Time: 7:45pm - 9:15pm</p>
-  <p class="font-impact">At: Headingley</p>
+  <p class="font-impact">Location: Headingley</p>
 </div>
 
 Our north Leeds growth group is currently meeting face to face and using Zoom, contact the Student Team for further details.
