@@ -17,7 +17,7 @@ The CU is a fantastic opportunity to tell others about Christ and to be encourag
 ## Growth groups
 
 <div class="text-center">
-  <p class="font-impact no-padding-bottom">Time: 7:45pm - 9:15pm</p>
+  <p class="font-impact no-margin-bottom">Time: 7:45pm - 9:15pm</p>
   <p class="font-impact">Location: Headingley</p>
 </div>
 
