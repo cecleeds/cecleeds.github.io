@@ -1030,7 +1030,11 @@ blockquote {
   background: #b8e0f3;
 }
 
-blockquote p {
+blockquote p,
+blockquote ol,
+blockquote ul,
+blockquote dl,
+blockquote table {
   margin-bottom: 0;
 }
 
