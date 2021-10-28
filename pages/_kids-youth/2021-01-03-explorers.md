@@ -12,7 +12,7 @@ href: ""
   <p class="font-impact">At: City Evangelical Church</p>
 </div>
 
-We love kids and want them to love coming to church. Every Sunday morning service we provide fun filled activity sessions for the kids. The kids join us for the first bit of the service and then go out their classes.
+We love kids and want them to love coming to church. Every Sunday morning service we provide fun filled activity sessions for the kids. The kids join us for the first bit of the service and then go out for their classes.
 
 0-2 yrs | Babies 
 2-4 yrs | Tots 
