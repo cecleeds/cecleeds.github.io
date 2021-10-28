@@ -4,6 +4,7 @@ collection_type: "kids-youth"
 layout: sectioned-page
 container-size: medium
 heading: 1
+href: ""
 ---
 
 <div class="text-center">
@@ -22,3 +23,6 @@ All kids need to be registered for their group before they attend. If you havenâ
 
 If you'd like your child to stay with you throughout the service, please don't be concerned about noise. We love the sound of children in our services.
 
+<div class="text-center">
+  <a class="button accent-button" href="{{ page.href }}">Registration form</a>
+</div>
