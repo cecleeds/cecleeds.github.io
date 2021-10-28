@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Welcome"
 collection_type: "kids-youth"
 layout: sectioned-page
 container-size: medium
