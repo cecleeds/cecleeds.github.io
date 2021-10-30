@@ -10,8 +10,8 @@ We meet in various homes around Beeston and North Leeds every fortnight on Tuesd
 
 > For those who would prefer, two groups are currently meeting at church socially distanced and most groups are continuing face to face and via zoom.
 
-Our growth groups are a great way to meet with a small group from City to study the Bible together, pray and develop deeper relationships with each other. Please get in touch with the growth group co-ordinator if you would like to join a group.
+Our growth groups are a great way to meet with a small group from City to study the Bible together, pray and develop deeper relationships with each other. Please complete the get connected form if you would like to join a group and the growth group coordinator will get back to you.
 
 <div class="text-center">
-  <a class="button accent-button" href="">Contact growth group coordinator</a>
+  <a class="button accent-button" href="">Get connected</a>
 </div>
