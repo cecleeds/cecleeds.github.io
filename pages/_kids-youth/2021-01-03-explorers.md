@@ -19,7 +19,7 @@ We love kids and want them to love coming to church. Every Sunday morning servic
 5-11 yrs | Explorers
 12-14 yrs | Fuel
 
-All kids need to be registered for their group before they attend. If you haven’t been before you need to fill out a registration form - you can do that on the button below or just ask the Welcome team as you arrive on Sunday.
+All kids need to be registered for their group before they attend. If you haven’t been before you need to fill out a registration form - you can do that on the button below or just ask one of the teachers when you take your child to the class.
 
 If you'd like your child to stay with you throughout the service, please don't be concerned about noise. We love the sound of children in our services.
 
