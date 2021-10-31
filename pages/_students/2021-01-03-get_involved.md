@@ -4,6 +4,7 @@ collection_type: "students"
 layout: sectioned-page
 container-size: medium
 heading: 1
+href: https://cecleeds.churchsuite.com/forms/6og31t0v
 ---
 
 ## Christian Union
@@ -21,8 +22,8 @@ The CU is a fantastic opportunity to tell others about Christ and to be encourag
   <p class="font-impact">Location: Headingley</p>
 </div>
 
-Our north Leeds growth group is currently meeting face to face and using Zoom, contact the Student Team for further details.
+Our north Leeds growth group is currently meeting face to face and using Zoom, please fill in the get connected form and we'll get back to you with further details.
 
 <div class="text-center">
-  {{ site.data.contact.studentmail }}
+  <a class="button accent-button" href="{{ page.href }}">Get connected</a>
 </div>
