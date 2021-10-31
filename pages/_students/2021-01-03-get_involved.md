@@ -22,7 +22,7 @@ The CU is a fantastic opportunity to tell others about Christ and to be encourag
   <p class="font-impact">Location: Headingley</p>
 </div>
 
-Our north Leeds growth group is currently meeting face to face and using Zoom, please fill in the get connected form and we'll get back to you with further details.
+Our north Leeds <a href="/whats-on#growth-group">growth group</a> is currently meeting face to face and using Zoom, please fill in the get connected form and we'll get back to you with further details.
 
 <div class="text-center">
   <a class="button accent-button" href="{{ page.href }}">Get connected</a>
