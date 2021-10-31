@@ -21,9 +21,10 @@ And we believe it's a counter-cultural and life-giving commitment to make!
 
 Anybody who is willing to commit to being part of our church family, can commit to our beliefs about God, the bible and Jesus, and respect our doctrinal distinctives.
 
-If you have any questions or would like to become a member, please get in touch.
+If you have any questions or would like to become a member, please get in touch by completing our get connected form below.
 
 <div class="text-center">
   <a class="button accent-button" href="/beliefs/">Our beliefs</a>
+  <a class="button accent-button" href="{{ page.href }}">Get connected</a>
 </div>
 
