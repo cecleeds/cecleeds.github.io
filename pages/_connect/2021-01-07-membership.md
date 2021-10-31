@@ -5,6 +5,7 @@ layout: sectioned-page
 container-size: medium
 heading: 1
 bg-color: alternate-background
+href: https://cecleeds.churchsuite.com/forms/6og31t0v
 ---
 
 Anyone is welcome to attend and get involved in church life here, but we invite you to consider becoming a formal member.
