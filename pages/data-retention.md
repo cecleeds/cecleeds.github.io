@@ -1,4 +1,12 @@
 ---
+title: Retention Policy
+layout: single-page
+permalink: /privacy/retention/
+tag: policy
+sitemap: 
+  lastmod: 04/10/2021
+  changefreq: yearly
+  priority: 0.1
 ---
 
 City Evangelical Church 
