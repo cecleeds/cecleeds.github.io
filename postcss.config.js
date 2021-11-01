@@ -11,6 +11,8 @@ const cssnano = require('cssnano')({
 });
 const purgecss = require('@fullhuman/postcss-purgecss')({
   content: ['*.html', '**/*.html', 'assets/js/**.js'],
+  // Treat every word in the bundle as a CSS selector
+  defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
   css: ['assets/css/city.css'],
   safelist: ['::-webkit-scrollbar', '::-webkit-scrollbar-thumb', '::-webkit-scroll-track']
 });
@@ -18,6 +20,6 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
 module.exports = {
   plugins: [
     autoprefixer,
-    ...(process.env.NODE_ENV === "production" ? [cssnano] : [])
+    ...(process.env.NODE_ENV === "production" ? [purgecss, cssnano] : [])
   ],
 };
