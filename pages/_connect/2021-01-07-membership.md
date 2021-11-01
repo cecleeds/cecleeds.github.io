@@ -26,6 +26,6 @@ If you have any questions or would like to become a member, please get in touch 
 
 <div class="text-center">
   <a class="button accent-button" href="/beliefs/">Our beliefs</a>
-  <a class="button accent-button" href="{{ page.href }}">Get connected</a>
+  <a class="button muted-button" href="{{ page.href }}">Get connected</a>
 </div>
 
