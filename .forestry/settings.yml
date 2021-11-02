@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: pages/_drafts
+  label: Drafts
+  create: documents
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
@@ -11,44 +16,44 @@ sections:
   label: Posts
   create: all
 - type: directory
-  path: _media
+  path: pages/_media
   label: Media
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
-  path: _students
+  path: pages/_students
   label: Students
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
-  path: _kids-youth
-  label: Kids youth
-  create: all
+  path: pages/_kids-youth
+  label: Kids and youth
+  create: documents
   match: "**/*"
 - type: directory
-  path: _connect
+  path: pages/_connect
   label: Connect
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
-  path: _about-us
+  path: pages/_about-us
   label: About us
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
-  path: _whats-on
+  path: pages/_whats-on
   label: Whats on
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
-  path: _sunday
+  path: pages/_sunday
   label: Sunday
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
-  path: _home
+  path: pages/_home
   label: Home
-  create: all
+  create: documents
   match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
