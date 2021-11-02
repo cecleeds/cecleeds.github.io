@@ -4,57 +4,63 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cecleeds.github.io/</loc>
-    <lastmod>2021-11-02T17:30:00+00:00</lastmod>
+    <lastmod>2021-11-02T18:27:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://cecleeds.github.io/sunday/</loc>
-    <lastmod>2021-11-02T17:30:00+00:00</lastmod>
+    <lastmod>2021-11-02T18:27:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cecleeds.github.io/whats-on/</loc>
-    <lastmod>2021-11-02T17:30:00+00:00</lastmod>
+    <lastmod>2021-11-02T18:27:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cecleeds.github.io/about/</loc>
-    <lastmod>2021-11-02T17:30:00+00:00</lastmod>
+    <lastmod>2021-11-02T18:27:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cecleeds.github.io/connect/</loc>
-    <lastmod>2021-11-02T17:30:00+00:00</lastmod>
+    <lastmod>2021-11-02T18:27:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cecleeds.github.io/under18/</loc>
-    <lastmod>2021-11-02T17:30:00+00:00</lastmod>
+    <lastmod>2021-11-02T18:27:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cecleeds.github.io/students/</loc>
-    <lastmod>2021-11-02T17:30:00+00:00</lastmod>
+    <lastmod>2021-11-02T18:27:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cecleeds.github.io/media/</loc>
-    <lastmod>2021-11-02T17:30:00+00:00</lastmod>
+    <lastmod>2021-11-02T18:27:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cecleeds.github.io/cookies/</loc>
-    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://cecleeds.github.io/privacy/retention/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
   </url>
   <url>
     <loc>https://cecleeds.github.io/privacy/</loc>
@@ -73,5 +79,17 @@
     <lastmod>2021-10-10T00:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://cecleeds.github.io/kids/</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority></priority>
+  </url>
+  <url>
+    <loc>https://cecleeds.github.io/youth/</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority></priority>
   </url>
 </urlset>
