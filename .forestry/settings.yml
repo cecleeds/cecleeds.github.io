@@ -55,7 +55,7 @@ sections:
   label: Home
   create: documents
   match: "**/*"
-upload_dir: assets/img
+upload_dir: assets/img/master
 public_path: "/assets/img"
 front_matter_path: ''
 use_front_matter_path: false
