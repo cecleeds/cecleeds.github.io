@@ -2,28 +2,6 @@
 label: Redirect
 hide_body: false
 fields:
-- type: text
-  name: title
-  label: title
 - type: list
   name: redirect_from
   label: redirect_from
-- type: text
-  name: collection_type
-  label: collection_type
-- type: text
-  name: layout
-  label: layout
-- type: text
-  name: container-size
-  label: container-size
-- type: number
-  name: heading
-  label: heading
-- type: field_group_list
-  name: impact-font
-  label: impact-font
-  fields:
-  - type: text
-    name: content
-    label: content
