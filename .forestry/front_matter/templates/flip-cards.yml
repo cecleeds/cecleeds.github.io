@@ -1,0 +1,38 @@
+---
+label: Flip cards
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: collection_type
+  label: collection_type
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: container-size
+  label: container-size
+- type: number
+  name: heading
+  label: heading
+- type: field_group_list
+  name: flip-card
+  label: flip-card
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: file
+    name: url
+    label: url
+  - type: text
+    name: content
+    label: content
+  - type: text
+    name: href
+    label: href
