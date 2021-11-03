@@ -1,5 +1,5 @@
 ---
-label: Sectioned page default
+label: Default (with alt bg)
 hide_body: false
 fields:
 - type: text
