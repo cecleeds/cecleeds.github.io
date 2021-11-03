@@ -1,0 +1,32 @@
+---
+label: Single page default
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: tag
+  label: tag
+- type: text
+  name: bg-color
+  label: bg-color
+- type: field_group
+  name: sitemap
+  label: sitemap
+  fields:
+  - type: datetime
+    name: lastmod
+    label: lastmod
+  - type: text
+    name: changefreq
+    label: changefreq
+  - type: number
+    name: priority
+    label: priority
