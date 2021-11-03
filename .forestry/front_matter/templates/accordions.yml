@@ -1,0 +1,29 @@
+---
+label: Accordions
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: collection_type
+  label: collection_type
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: container-size
+  label: container-size
+- type: number
+  name: heading
+  label: heading
+- type: field_group_list
+  name: accordion
+  label: accordion
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
