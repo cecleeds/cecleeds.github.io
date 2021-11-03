@@ -1,7 +1,0 @@
----
-label: Redirect from
-hide_body: false
-fields:
-- type: list
-  name: redirect_from
-  label: redirect_from
