@@ -8,11 +8,7 @@ sitemap:
   changefreq: yearly
   priority: 0.1
 ---
-
-City Evangelical Church 
-
-Appendix 2 - Records Retention Policy
-
+ 
 Storage of Data and Records Statement
 
 All data and records will be stored in accordance with the security requirements of the Data Protection Legislation and in the most convenient and appropriate location having regard to the period of retention required and the frequency with which access will be made to the record.
@@ -54,52 +50,26 @@ Guidelines for Retention of Personal Data
 If you have any queries regarding retaining or disposing of data please contact [insert name]
 
 
-Types of Data                 Suggested Retention Period         
+Types of Data | Retention Period         
      
-Personnel files
- including training records 
-and notes of disciplinary 
-and grievance hearings.
-6 years from the end of employment
-Application forms / interview notes
-Maximum of one year from the date of the interviews for those not subsequently employed.  If employed, retain in personnel file.
-Information relating to children
-
-NB. You may find it helpful to read the following article:
-http://safeinchurch.org.uk/record-retention
-Check for accuracy once a year
-Record that child was a member of the group – permanent
-Secure destruction of personal data other than name and fact of membership – three years after cease to be a member
-Church member information
-Check for accuracy once a year
-Record that adult was a member – permanent
-Secure destruction of personal data other than name and fact of membership – three years after cease to be a member
-Church group member information
-Check for accuracy once a year
-Secure destruction of personal data other than name and fact of membership – three years after cease to be a member
-Income Tax and NI returns, including correspondence with tax office
-At least 6 years after the end of the financial year to which the records relate     
+Personnel files including training records and notes of disciplinary and grievance hearings | 6 years from the end of employment
+Application forms / interview notes | Maximum of one year from the date of the interviews for those not subsequently employed.  If employed, retain in personnel file.
+Information relating to children NB. You may find it helpful to read the following article: http://safeinchurch.org.uk/record-retention | Check for accuracy once a year
+Record that child was a member of the group | permanent - Secure destruction of personal data other than name and fact of membership three years after cease to be a member
+Church member information | Check for accuracy once a year Record that adult was a member – permanent Secure destruction of personal data other than name and fact of membership – three years after cease to be a member
+Church group member information | Check for accuracy once a year Secure destruction of personal data other than name and fact of membership – three years after cease to be a member
+Income Tax and NI returns, including correspondence with tax office | At least 6 years after the end of the financial year to which the records relate     
 
 
-Statutory Maternity Pay records and calculations
-As Above     
-(Statutory Maternity Pay (General) Regulations 1986)
-Statutory Sick Pay records and calculations
-As Above     
-Statutory Sick Pay (General) Regulations 1982
+Statutory Maternity Pay records and calculations (Statutory Maternity Pay (General) Regulations 1986) | As Above     
+Statutory Sick Pay records and calculations (Statutory Sick Pay (General) Regulations 1982) | As Above     
 
 
-Wages and salary records
-6 years from the tax year in which generated
-Accident books, and records and reports of accidents
-(for Adults) 3 years after the date of the last entry 
-(for children) three years after the child attains 18 years     (RIDDOR 1985)
-Health records
-6 months from date of leaving employment
-(Management of Health and Safety at Work Regulations)
-Health records where reason for termination of employment is connected with health, including stress related illness
-3 years from date of leaving employment
-(Limitation period for personal injury) claims)
+Wages and salary records | 6 years from the tax year in which generated
+Accident books, and records and reports of accidents (for Adults) | 3 years after the date of the last entry 
+Accident books, and records and reports of accidents (for children) | three years after the child attains 18 years     (RIDDOR 1985)
+Health records (Management of Health and Safety at Work Regulations) | 6 months from date of leaving employment
+Health records where reason for termination of employment is connected with health, including stress related illness | 3 years from date of leaving employment (Limitation period for personal injury) claims)
     
 
 
