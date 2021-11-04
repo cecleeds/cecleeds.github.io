@@ -10,7 +10,7 @@ const cssnano = require('cssnano')({
   preset: ['default', { cssnanoConfig }]
 });
 const purgecss = require('@fullhuman/postcss-purgecss')({
-  content: ['**/**/*.html', '**/**/*.js'],
+  content: ['./**/**/*.html', './**/**/*.js'],
   // Treat every word in the bundle as a CSS selector
   defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
   css: ['assets/css/city.css'],
