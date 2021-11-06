@@ -9,14 +9,22 @@ const cssnanoConfig = {
 const cssnano = require('cssnano')({
   preset: ['default', { cssnanoConfig }]
 });
+
+const purgeHTML = require('purgecss-from-html');
 const purgecss = require('@fullhuman/postcss-purgecss')({
   content: ['**/*.html', '**/*.js'],
-  safelist: ['::-webkit-scrollbar', '::-webkit-scrollbar-thumb', '::-webkit-scroll-track']
+  css: ['city.css'],
+  safelist: ['::-webkit-scrollbar', '::-webkit-scrollbar-thumb', '::-webkit-scroll-track'],
+  extractors: [
+    { 
+      extractor: purgeHTML, extensions: ['html']
+    }
+  ],
 });
 
 module.exports = {
   plugins: [
     autoprefixer,
-    ...(process.env.NODE_ENV === "production" ? [cssnano] : [])
+    ...(process.env.NODE_ENV === "production" ? [purgecss, cssnano] : [])
   ],
 };
