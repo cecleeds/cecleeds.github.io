@@ -54,7 +54,7 @@ Types of Data | Retention Period
      
 Personnel files including training records and notes of disciplinary and grievance hearings | 6 years from the end of employment
 Application forms / interview notes | Maximum of one year from the date of the interviews for those not subsequently employed.  If employed, retain in personnel file.
-Information relating to children NB. You may find it helpful to read the following article: http://safeinchurch.org.uk/record-retention | Check for accuracy once a year
+Information relating to children NB. You may find it helpful to read the following article: [Safe in church](http://safeinchurch.org.uk/record-retention) | Check for accuracy once a year
 Record that child was a member of the group | permanent - Secure destruction of personal data other than name and fact of membership three years after cease to be a member
 Church member information | Check for accuracy once a year Record that adult was a member – permanent Secure destruction of personal data other than name and fact of membership – three years after cease to be a member
 Church group member information | Check for accuracy once a year Secure destruction of personal data other than name and fact of membership – three years after cease to be a member
