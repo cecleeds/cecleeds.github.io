@@ -40,10 +40,6 @@ elders:
     role: Associate Pastor and Elder
     info: David joined the church in 2019 as a pastor. He is from .... and enjoys ...
     photo: '../assets/img/400/elder-dl.jpeg'
-  - name: John Keene
-    role: Elder
-    info: John works as a Doctor and has served the church for 15 years as an elder. He is married to Emily and has three children. He enjoys ...
-    photo: '../assets/img/400/elder-jk.jpeg'
   - name: Andrew Smith
     role: Elder
     info: Andrew became an elder in July 2020. He is married to Lianna and they have two daughters. He enjoys walking.
