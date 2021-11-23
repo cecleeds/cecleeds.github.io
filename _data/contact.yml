@@ -37,8 +37,8 @@ elders:
     info: Michael has been the senior pastor since 2010. He is originally from Texus, USA. He is married to Emily and they have five children. He enjoys running and Mexican food.
     photo: '../assets/img/400/elder-ml.jpeg'
   - name: David Lovell
-    role: Associate Pastor and Elder
-    info: David joined the church in 2019 as a pastor. He is from .... and enjoys ...
+    role: Assistant Pastor and Elder
+    info: David joined the church in August 2019 as a pastor. He is from .... and enjoys ...
     photo: '../assets/img/400/elder-dl.jpeg'
   - name: Andrew Smith
     role: Elder
