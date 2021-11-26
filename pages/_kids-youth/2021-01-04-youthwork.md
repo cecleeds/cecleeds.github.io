@@ -4,6 +4,11 @@ collection_type: "kids-youth"
 layout: sectioned-page
 container-size: medium
 heading: 1
+
+action-card:
+  - title: Services
+    bg: bg-primary
+    content: We meet every Sunday for worship services at 10:45am and 6:30pm.
 ---
 
 Youth growth group - Weekly Growth Group on Thursdays 7:30 - 9:30 for young people in school years 10-13.
