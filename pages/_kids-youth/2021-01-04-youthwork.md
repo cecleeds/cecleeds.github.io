@@ -13,9 +13,9 @@ action-card:
     content: Our weekly Growth Group is on Thursdays 7:30 - 9:30pm for young people in school years 10-13. For more details, please complete the connect form.
     href: https://cecleeds.churchsuite.com/forms/6og31t0v
     linktext: Connect form
-  - title: Ignite
+  - title: Ignite & furnace
     bg: bg-secondary
-    content: Has the restarted?
+    content: Have these restarted?
 ---
 
 {% include components/action-cards.html %}
