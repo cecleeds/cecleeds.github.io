@@ -55,7 +55,7 @@ jobs:
         with:
           valueFile: '_config.yml'
           propertyPath: 'environment'
-          value: 'dev' ## if environment = deployment then cookies.md, cookie-consent.html, sitemap.xml & robot.txt use site.deployurl instead of site.url
+          value: 'development' ## if environment = deployment then cookies.md, cookie-consent.html, sitemap.xml & robot.txt use site.deployurl instead of site.url
           commitChange: false
           updateFile: true
       # use jekyll-action-ts to build
