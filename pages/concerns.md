@@ -1,4 +1,13 @@
-# Reporting concerns, complaints or whistleblowing
+---
+title: Reporting concerns, complaints or whistleblowing
+layout: single-page
+permalink: /concerns/
+tag: policy
+sitemap: 
+  lastmod: 10/12/2021
+  changefreq: yearly
+  priority: 0.3
+---
 
 We believe that each person matters to God and we are committed to reflecting God’s character in maintaining the highest possible Biblical standards of integrity and accountability in the work we do. Everyone serving at City Evangelical Church is obliged to conduct themselves in keeping with these high standards and to treat others with dignity and respect. Whether you are a member of the public, or are a member of the church, we invite you to report any concerns you may have about the behavior of City Evangelical Church staff or volunteers.
 
