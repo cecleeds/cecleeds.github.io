@@ -43,6 +43,11 @@ function showBTNS() {
   element.classList.toggle("hidden");
 }
 
+function hideBTN() {
+  var element = document.getElementById("emailBTN");
+  element.classList.toggle("hidden");
+}
+
 //=====================================================
 // Smooth scroll (plus polyfill)
 //=====================================================
