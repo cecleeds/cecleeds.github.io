@@ -20,6 +20,10 @@ function contact1(name, dom, tl, params){
 function contact2(name, dom, tl, params, display){
   document.write('<a href="'+m_+e(name,dom,tl)+params+'">'+display+'</a>');
 }
+function contact3(name, dom, tl, params, display){
+  document.write('<a class="button accent-button" href="'+m_+e(name,dom,tl)+params+'">'+display+'</a>');
+}
+
 function e(name, dom, tl){
   var s = name+a_;
   if (tl!=-2){

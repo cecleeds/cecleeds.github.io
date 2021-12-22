@@ -40,73 +40,58 @@ function logoToggle() {
 
 function showBTNS() {
   var element = document.getElementById("contactBTN");
-  element.classList.toggle("hidden");
+  element.classList.toggle("hide");
 }
 
 function hideBTN() {
   var element = document.getElementById("emailBTN");
-  element.classList.toggle("hidden");
+  element.classList.toggle("hide");
 }
 
 //=====================================================
 // Copy contact button
 //=====================================================
 
-const aioContact = document.querySelectorAll('.copyemail span');
-const aioMailing = document.querySelectorAll('.contact-buttons span');
 
-aioMailing.forEach(copyemail => {
- copyemail.addEventListener('click', () => {
-    const selection = window.getSelection();
-    const range = document.createRange();
-    range.selectNodeContents(copyemail);
-    selection.removeAllRanges();
-    selection.addRange(range);
-
-    try {
-      document.execCommand('copy');
-      selection.removeAllRanges();
-
-      const original = copyemail.textContent;
-      copyemail.textContent = 'Copied!';
-      copyemail.classList.add('success');
-
-      setTimeout(() => {
-        copyemail.textContent = original;
-        copyemail.classList.remove('success');
-      }, 1200);
-    } catch(e) {
-      const errorMsg = document.querySelector('.error-msg');
-      errorMsg.classList.add('show');
-
-      setTimeout(() => {
-        errorMsg.classList.remove('show');
-      }, 1200);
-    }
-  });
-});
-
-var copyEmailBtn = document.querySelector('.js-emailcopybtn');  
+ 
 copyEmailBtn.addEventListener('click', function(event) {  
-  // Select the email link anchor text  
-  var emailLink = document.querySelector('.js-emaillink');  
-  var range = document.createRange();  
-  range.selectNode(emailLink);  
-  window.getSelection().addRange(range);  
+  // Select the email link anchor text
+  
+  const selection = window.getSelection(); 
+  const range = document.createRange();  
+  range.selectNode(emailLink);
+  selection.removeAllRanges();
+  selection.addRange(range);  
 
   try {  
     // Now that we've selected the anchor text, execute the copy command  
-    var successful = document.execCommand('copy');  
-    var msg = successful ? 'successful' : 'unsuccessful';  
-    console.log('Copy email command was ' + msg);  
-  } catch(err) {  
-    console.log('Oops, unable to copy');  
-  }  
+    document.execCommand('copy');
+    selection.removeAllRanges();
 
-  // Remove the selections - NOTE: Should use
-  // removeRange(range) when it is supported  
-  window.getSelection().removeAllRanges();  
+    const original = copyEmailBtn.textContent;
+    copyEmailBtn.textContent = 'Copied!';
+    copyEmailBtn.classList.add('success');
+
+    setTimeout(() => {
+      copyEmailBtn.textContent = original;
+      copyEmailBtn.classList.remove('success');
+    }, 1200);
+  } catch(e) {
+    const errorMsg = document.querySelector('.error-msg');
+    errorMsg.classList.add('show');
+
+    setTimeout(() => {
+      errorMsg.classList.remove('show');
+    }, 1200);
+  }
 });
+
+//=====================================================
+// Decryption
+//=====================================================
+function r(a,b){return++b?String.fromCharCode((a=a.charCodeAt()+47,a>126?a-94:a)):a.replace(/[^ ]/g,r)};
+document.getElementById( "decryptoffice" ).innerHTML = r('@77:46o464=665D]4@]F<');
+document.getElementById( "decryptpastor" ).innerHTML = r('A2DE@Co464=665D]4@]F<');
 
 //=====================================================
 // Smooth scroll (plus polyfill)
