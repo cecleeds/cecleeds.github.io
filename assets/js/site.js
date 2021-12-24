@@ -37,7 +37,6 @@ function logoToggle() {
 //=====================================================
 // Show or hide contact buttons
 //=====================================================
-
 function showBTNS() {
   var element = document.getElementById("contactBTN");
   element.classList.toggle("hide");
@@ -51,12 +50,11 @@ function hideBTN() {
 //=====================================================
 // Copy contact button
 //=====================================================
-
-
+var copyEmailBtn = document.querySelector();
  
 copyEmailBtn.addEventListener('click', function(event) {  
   // Select the email link anchor text
-  
+  var emailLink = document.querySelector();
   const selection = window.getSelection(); 
   const range = document.createRange();  
   range.selectNode(emailLink);
