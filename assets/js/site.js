@@ -50,38 +50,40 @@ function hideBTN() {
 //=====================================================
 // Copy contact button
 //=====================================================
-var copyEmailBtn = document.querySelector();
- 
-copyEmailBtn.addEventListener('click', function(event) {  
-  // Select the email link anchor text
-  var emailLink = document.querySelector();
-  const selection = window.getSelection(); 
-  const range = document.createRange();  
-  range.selectNode(emailLink);
-  selection.removeAllRanges();
-  selection.addRange(range);  
+var contactEmailBtn = document.querySelectorAll('.js-emailcopybtn');
 
-  try {  
-    // Now that we've selected the anchor text, execute the copy command  
-    document.execCommand('copy');
+contactEmailBtn.forEach(copyEmailBtn => {
+  copyEmailBtn.addEventListener('click', function(event) {  
+    // Select the email link anchor text
+    var emailLink = document.querySelectorAll('.js-emaillink');
+    const selection = window.getSelection(); 
+    const range = document.createRange();  
+    range.selectNode(emailLink);
     selection.removeAllRanges();
+    selection.addRange(range);  
 
-    const original = copyEmailBtn.textContent;
-    copyEmailBtn.textContent = 'Copied!';
-    copyEmailBtn.classList.add('success');
+    try {  
+      // Now that we've selected the anchor text, execute the copy command  
+      document.execCommand('copy');
+      selection.removeAllRanges();
 
-    setTimeout(() => {
-      copyEmailBtn.textContent = original;
-      copyEmailBtn.classList.remove('success');
-    }, 1200);
-  } catch(e) {
-    const errorMsg = document.querySelector('.error-msg');
-    errorMsg.classList.add('show');
+      const original = copyEmailBtn.textContent;
+      copyEmailBtn.textContent = 'Copied!';
+      copyEmailBtn.classList.add('success');
 
-    setTimeout(() => {
-      errorMsg.classList.remove('show');
-    }, 1200);
-  }
+      setTimeout(() => {
+        copyEmailBtn.textContent = original;
+        copyEmailBtn.classList.remove('success');
+      }, 1200);
+    } catch(e) {
+      const errorMsg = document.querySelector('.error-msg');
+      errorMsg.classList.add('show');
+
+      setTimeout(() => {
+        errorMsg.classList.remove('show');
+      }, 1200);
+    }
+  });
 });
 
 //=====================================================
