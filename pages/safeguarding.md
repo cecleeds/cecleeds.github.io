@@ -70,13 +70,13 @@ If you have any concerns for a child, young person or adult then speak to one of
 {% for sl_details in site.data.contact.safeguard_lead %}
 **Safeguarding Co-ordinator:** {{ sl_details.name }}
 
-Mobile Number: {{ sl_details.phone }}
+<p aria-label="Phone number {{ sl_details.sr-phone }}">Mobile Number: {{ sl_details.phone }}</p>
 
 E-mail: {{ sl_details.mailing }}{% endfor %}
 {% for dsl_info in site.data.contact.deputy_safeguard %}
 **Deputy Safeguarding Co-ordinator:** {{ dsl_info.name }}
 
-Mobile Number: {{ dsl_info.phone }}
+<p aria-label="Phone number {{ dsl_details.sr-phone }}">Mobile Number: {{ dsl_info.phone }}</p>
 
 E-mail: {{ dsl_info.mailing }}{% endfor %}
  
