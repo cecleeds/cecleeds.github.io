@@ -15,7 +15,7 @@ action-card:
     linktext: Connect form
   - title: Ignite & furnace
     bg: bg-secondary
-    content: Have these restarted? Check with MM
+    content: Have these restarted?
 ---
 
 {% include components/action-cards.html %}
