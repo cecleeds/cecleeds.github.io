@@ -10,29 +10,19 @@ on:
     paths-ignore:
       - 'README.md'
 
-# to create conditional if      
-#env:
-#  DEPLOY: "false"
-
-#jobs:
-#  job1:
-#    runs-on: ubuntu-latest
-#    steps:
-#    - run: echo ${{ env.DEPLOY }}
-#      if: env.DEPLOY != 'true'
-#  job2:
-#    runs-on: ubuntu-latest
-#    steps:
-#    - run: echo ${{ env.DEPLOY }}
-#      if: env.DEPLOY == 'true'
-
- 
+# Conditional environmental if's      
+env:
+  UPDATE_NPM: "false"
+  
 # Build site using jekyll
 jobs:
   jekyll:
     runs-on: ubuntu-latest
     steps:
-      # checkout code
+      # condition - if UPDATE_NPM = false
+      - run: echo ${{ env.DEPLOY }}
+        if: env.UPDATE_NPM != 'true' # not equal true
+        # checkout code
       - uses: actions/checkout@v2
       # Use ruby/setup-ruby to shorten build times
       # https://github.com/ruby/setup-ruby
@@ -92,3 +82,8 @@ jobs:
           # GITHUB_TOKEN secret is set up automatically
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ${{ env.DEPLOY }}
+        if: env.UPDATE_NPM == 'true'
