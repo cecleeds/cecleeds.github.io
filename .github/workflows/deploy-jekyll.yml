@@ -10,6 +10,22 @@ on:
     paths-ignore:
       - 'README.md'
 
+# to create conditional if      
+#env:
+#  DEPLOY: "false"
+
+#jobs:
+#  job1:
+#    runs-on: ubuntu-latest
+#    steps:
+#    - run: echo ${{ env.DEPLOY }}
+#      if: env.DEPLOY != 'true'
+#  job2:
+#    runs-on: ubuntu-latest
+#    steps:
+#    - run: echo ${{ env.DEPLOY }}
+#      if: env.DEPLOY == 'true'
+
  
 # Build site using jekyll
 jobs:
