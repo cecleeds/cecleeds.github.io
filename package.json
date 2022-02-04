@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npm install -D",
+    "dev": "npm install -D @fullhuman/postcss-purgecss postcss postcss-cli autoprefixer cssnano purgecss-from-html purgecss-from-js",
     "prod": "npm ci"
   },
   "bugs": {
