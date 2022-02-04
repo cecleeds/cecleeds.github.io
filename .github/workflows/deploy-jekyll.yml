@@ -9,10 +9,9 @@ on:
       - master
     paths-ignore:
       - 'README.md'
-
 # Conditional environmental if's      
 env:
-  UPDATE_NPM: ${{ false }} # false boolean = 0 , true boolean = 1 
+  UPDATE_NPM: false # false boolean = 0 , true boolean = 1 
   
 # Build site using jekyll
 jobs:
@@ -20,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # condition - if UPDATE_NPM = false
-      - run: echo ${{ env.UPDATE_NPM }}
+      - run: echo '${{ env.UPDATE_NPM }}'
         if: env.UPDATE_NPM != '1' # not equal true
         # checkout code
       - uses: actions/checkout@v2
@@ -88,7 +87,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # condition - if UPDATE_NPM = true
-      - run: echo ${{ env.UPDATE_NPM }}
+      - run: echo '${{ env.UPDATE_NPM }}'
         if: env.UPDATE_NPM == '1'
       - name: Checkout
         uses: actions/checkout@v2
