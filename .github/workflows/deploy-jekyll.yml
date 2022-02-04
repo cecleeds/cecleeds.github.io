@@ -19,8 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # condition - if UPDATE_NPM = false
-      - run: echo '${{ env.UPDATE_NPM }}'
-        if: env.UPDATE_NPM != '1' # not equal true
+      - run: echo ${{ env.UPDATE_NPM }}
+        if: env.UPDATE_NPM != 'true'; then exit 0; else exit 1; fi # not equal true
         # checkout code
       - uses: actions/checkout@v2
       # Use ruby/setup-ruby to shorten build times
@@ -88,7 +88,7 @@ jobs:
     steps:
       # condition - if UPDATE_NPM = true
       - run: echo '${{ env.UPDATE_NPM }}'
-        if: env.UPDATE_NPM == '1'
+        if: env.UPDATE_NPM == 'true'; then exit 0; else exit 1; fi
       - name: Checkout
         uses: actions/checkout@v2
       - name: Setup Node
