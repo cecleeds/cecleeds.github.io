@@ -30,7 +30,7 @@ jobs:
         with:
           node-version: '14'
       # Install PostCSS plugins using jekyll-postcss-v2, package.json and postcss.config.js
-      - run: npm update # run: npm update
+      - run: npm dev # run: npm dev to update pakages
       # Update yaml config file with SECRETS!!
       # path:
       #   to:
