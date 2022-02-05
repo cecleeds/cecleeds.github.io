@@ -17,28 +17,24 @@ env:
 jobs:
   jekyll:
     runs-on: ubuntu-latest
+    # condition - if UPDATE_NPM = false
+    if: env.UPDATE_NPM != 'true'
     steps:
-      # condition - if UPDATE_NPM = false
-      - run: echo ${{ env.UPDATE_NPM }}
-      - if: env.UPDATE_NPM != 'true'
         # checkout code
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
       # Use ruby/setup-ruby to shorten build times
       # https://github.com/ruby/setup-ruby
-      - if: env.UPDATE_NPM != 'true'
-        uses: ruby/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7 # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       # Install Node
       - name: Setup Node
-        if: env.UPDATE_NPM != 'true'
         uses: actions/setup-node@v2
         with:
           node-version: '14'
       # Install PostCSS plugins using jekyll-postcss-v2, package.json and postcss.config.js
       - run: npm run dev # run: npm run dev to update packages
-        if: env.UPDATE_NPM != 'true'
       # Update yaml config file with SECRETS!!
       # path:
       #   to:
@@ -51,7 +47,6 @@ jobs:
       # e.g. propertyPath: 'path.to.the.1.value' = to change 'world'
       # e.g. propertyPath: 'path.to.nested.abc' = to change '123'
       - name: Update yaml secret
-        if: env.UPDATE_NPM != 'true'
         uses: woodcock3/yaml-update-action@master
         with:
           valueFile: '_config.yml'
@@ -60,7 +55,6 @@ jobs:
           commitChange: false
           updateFile: true
       - name: Update deployment url
-        if: env.UPDATE_NPM != 'true'
         uses: woodcock3/yaml-update-action@master
         with:
           valueFile: '_config.yml'
@@ -71,7 +65,6 @@ jobs:
       # use jekyll-action-ts to build
       # https://github.com/limjh16/jekyll-action-ts
       - name: Build site
-        if: env.UPDATE_NPM != 'true'
         uses: limjh16/jekyll-action-ts@v2
         with:
           enable_cache: true
@@ -82,7 +75,6 @@ jobs:
           NODE_ENV: "production" # production or development - this affects minification of css in postcss.config.js
       # https://github.com/peaceiris/actions-gh-pages
       - name: Deploy
-        if: env.UPDATE_NPM != 'true'
         uses: peaceiris/actions-gh-pages@v3
         with:
           # GITHUB_TOKEN secret is set up automatically
