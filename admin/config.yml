@@ -1,0 +1,105 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+# This line should *not* be indented
+media_folder: "assets/img/master" # Where Media files will be stored in the repo
+public_folder: "assets/img/master" # The src attribute for uploaded media will begin with /assets/img/master
+
+collections:
+  - name: "Home" # Used in routes, e.g., /admin/collections/blog
+    label: "Home" # Used in the UI
+    folder: "pages/_home" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "/" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+      - {label: "Collection_type", name: "collection_type", widget: "hidden", default: "home"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Container-size", name: "container-size", widget: "string", default: "medium"}
+      - {label: "Heading", name: "heading", widget: "string", default: "1"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Sunday" # Used in routes, e.g., /admin/collections/blog
+    label: "Sunday" # Used in the UI
+    folder: "pages/_sunday" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "/sunday" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "sunday"}
+      - {label: "Collection_type", name: "collection_type", widget: "hidden", default: "sunday"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Container-size", name: "container-size", widget: "string", default: "medium"}
+      - {label: "Heading", name: "heading", widget: "string", default: "1"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "What's on" # Used in routes, e.g., /admin/collections/blog
+    label: "What's on" # Used in the UI
+    folder: "pages/_whats-on" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "/whats-on" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "whats-on"}
+      - {label: "Collection_type", name: "collection_type", widget: "hidden", default: "whats-on"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Container-size", name: "container-size", widget: "string", default: "medium"}
+      - {label: "Heading", name: "heading", widget: "string", default: "1"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "About us" # Used in routes, e.g., /admin/collections/blog
+    label: "About us" # Used in the UI
+    folder: "pages/_about" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "/about" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
+      - {label: "Collection_type", name: "collection_type", widget: "hidden", default: "about"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Container-size", name: "container-size", widget: "string", default: "medium"}
+      - {label: "Heading", name: "heading", widget: "string", default: "1"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Connect" # Used in routes, e.g., /admin/collections/blog
+    label: "Connect" # Used in the UI
+    folder: "pages/_connect" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "/connect" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "connect"}
+      - {label: "Collection_type", name: "collection_type", widget: "hidden", default: "connect"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Container-size", name: "container-size", widget: "string", default: "medium"}
+      - {label: "Heading", name: "heading", widget: "string", default: "1"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Kids & Youth" # Used in routes, e.g., /admin/collections/blog
+    label: "Kids & Youth" # Used in the UI
+    folder: "pages/_under18" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "/under18" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "under18"}
+      - {label: "Collection_type", name: "collection_type", widget: "hidden", default: "under18"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Container-size", name: "container-size", widget: "string", default: "medium"}
+      - {label: "Heading", name: "heading", widget: "string", default: "1"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Students" # Used in routes, e.g., /admin/collections/blog
+    label: "Students" # Used in the UI
+    folder: "pages/_students" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "/students" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "whats-on"}
+      - {label: "Collection_type", name: "collection_type", widget: "hidden", default: "whats-on"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Container-size", name: "container-size", widget: "string", default: "medium"}
+      - {label: "Heading", name: "heading", widget: "string", default: "1"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Media" # Used in routes, e.g., /admin/collections/blog
+    label: "Media" # Used in the UI
+    folder: "pages/_media" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "/media" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "media"}
+      - {label: "Collection_type", name: "collection_type", widget: "hidden", default: "media"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Container-size", name: "container-size", widget: "string", default: "medium"}
+      - {label: "Heading", name: "heading", widget: "string", default: "1"}
+      - {label: "Body", name: "body", widget: "markdown"}
