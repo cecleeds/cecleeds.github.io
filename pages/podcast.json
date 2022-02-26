@@ -2,4 +2,4 @@
 layout: null
 ---
 
-{{ site.data.podacst | jsonify }}
+{{ site.data.podcast | jsonify }}
