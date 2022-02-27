@@ -1,5 +1,4 @@
 ---
-permalink: /admin
 ---
  
 <!doctype html>
