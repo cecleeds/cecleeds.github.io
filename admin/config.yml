@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: cecleeds/cecleeds.github.io
   branch: master
   site_domain: cecleeds.github.io
