@@ -1,7 +1,6 @@
 ---
-redirect_to: https://cecleeds.netlify.app/admin
 ---
-
+ 
 <!doctype html>
 <html>
 <head>
@@ -12,6 +11,7 @@ redirect_to: https://cecleeds.netlify.app/admin
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
+  <a href="https://cecleeds.netlify.app/admin">Admin Login {{ site.url }}</a>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
 </body>
