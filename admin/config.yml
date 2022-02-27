@@ -1,5 +1,8 @@
 backend:
   name: git-gateway
+  repo: cecleeds/cecleeds.github.io
+  branch: master
+  site_domain: cecleeds.github.io
   branch: master # Branch to update (optional; defaults to master)
 
 # This line should *not* be indented
