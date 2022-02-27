@@ -1,5 +1,5 @@
 ---
-redirect_to: http://cecleeds.netlify.app/admin
+redirect_to: https://cecleeds.netlify.app/admin
 ---
 
 <!doctype html>
