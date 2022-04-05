@@ -11,7 +11,7 @@ const cssnano = require('cssnano')({
 });
 
 const purgecss = require('@fullhuman/postcss-purgecss')({
-  content: ['**/*.html', '**/*.js'],
+  content: ['**/*.js', './_includes/**/*.html', './_includes/**/*.svg', './_layouts/**/*.html', './pages/**/*.md', './pages/**/*.html', './pages/*.md', './pages/*.html', './*.html'],
   css: ['city.css'],
   safelist: ['::-webkit-scrollbar', '::-webkit-scrollbar-thumb', '::-webkit-scroll-track']
 });
@@ -19,6 +19,6 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
 module.exports = {
   plugins: [
     autoprefixer,
-    ...(process.env.NODE_ENV === "production" ? [cssnano] : [])
+    ...(process.env.NODE_ENV === "production" ? [cssnano, purgecss] : [])
   ],
 };
