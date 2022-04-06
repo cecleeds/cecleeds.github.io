@@ -11,7 +11,7 @@ const cssnano = require('cssnano')({
 });
 
 const purgecss = require('@fullhuman/postcss-purgecss')({
-  content: ['**/*.js', './_includes/**/*.html', './_includes/**/*.svg', './_layouts/**/*.html', './pages/**/*.md', './pages/**/*.html', './pages/*.md', './pages/*.html', './*.html'],
+  content: ['../../../../../tmp/jekyll-remote-theme-20220406-1732-1t6t1kk/_includes/**/*.html', '**/*.js', '../../../../../tmp/jekyll-remote-theme-20220406-1732-1t6t1kk/_includes/**/*.svg', '../../../../../tmp/jekyll-remote-theme-20220406-1732-1t6t1kk/_layouts/**/*.html', '../../../../../tmp/jekyll-remote-theme-20220406-1732-1t6t1kk/pages/**/*.md', '../../../../../tmp/jekyll-remote-theme-20220406-1732-1t6t1kk/pages/**/*.html', '../../../../../tmp/jekyll-remote-theme-20220406-1732-1t6t1kk/pages/*.md', '../../../../../tmp/jekyll-remote-theme-20220406-1732-1t6t1kk/pages/*.html', '../../../../../tmp/jekyll-remote-theme-20220406-1732-1t6t1kk/*.html'],
   css: ['city.css'],
   safelist: ['::-webkit-scrollbar', '::-webkit-scrollbar-thumb', '::-webkit-scroll-track']
 });
