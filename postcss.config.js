@@ -9,11 +9,15 @@ const cssnanoConfig = {
 const cssnano = require('cssnano')({
   preset: ['default', { cssnanoConfig }]
 });
+const themeDir = __dirname + '/../../';
 
 const purgecss = require('@fullhuman/postcss-purgecss')({
   content: [
-    './**/**/*.html', 
-    './**/**/*.js',
+    themeDir + '_layouts/**/*.html',
+    themeDir + '_includes/**/*.html',
+    themeDir + '_includes/**/*.svg',
+    // Specify path to own javascript
+    themeDir + 'assets/js/*.js',
     './_includes/**/*.html',
     './_includes/**/*.svg', 
     './_layouts/**/*.html', 
