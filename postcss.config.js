@@ -17,6 +17,7 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
     './_site/assets/**/*.js'
   ],
   css: ['city.css'],
+  defaultExtractor: content => content.match(/[\w-/.:]+(?<!:)/g) || [],
   safelist: ['::-webkit-scrollbar', '::-webkit-scrollbar-thumb', '::-webkit-scroll-track']
 });
 
