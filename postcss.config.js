@@ -18,6 +18,7 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
     themeDir + '_includes/**/*.svg',
     // Specify path to own javascript
     themeDir + 'assets/js/*.js',
+    './_site/**/*.html'
     './**/**/*.html',
     './**/**/*.svg',
     './**/**/*.md',
