@@ -9,7 +9,7 @@ const cssnanoConfig = {
 const cssnano = require('cssnano')({
   preset: ['default', { cssnanoConfig }]
 });
-const themeDir = woodcock3/city-jekyll + '/../../';
+const themeDir = './woodcock3/city-jekyll/../../';
 
 const purgecss = require('@fullhuman/postcss-purgecss')({
   content: [
