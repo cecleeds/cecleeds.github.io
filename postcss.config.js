@@ -11,7 +11,15 @@ const cssnano = require('cssnano')({
 });
 
 const purgecss = require('@fullhuman/postcss-purgecss')({
-  content: ['./**/**/*.html', './**/**/*.js', './_includes/**/*.svg', './_layouts/**/*.html', './pages/**/*.md', './pages/**/*.html'],
+  content: [
+    './**/**/*.html', 
+    './**/**/*.js',
+    './_includes/**/*.html',
+    './_includes/**/*.svg', 
+    './_layouts/**/*.html', 
+    './pages/**/*.md', 
+    './pages/**/*.html'
+  ],
   css: ['city.css'],
   safelist: ['::-webkit-scrollbar', '::-webkit-scrollbar-thumb', '::-webkit-scroll-track']
 });
