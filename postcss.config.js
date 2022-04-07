@@ -9,15 +9,12 @@ const cssnanoConfig = {
 const cssnano = require('cssnano')({
   preset: ['default', { cssnanoConfig }]
 });
-const themeDir = './woodcock3/city-jekyll/../../';
 
 const purgecss = require('@fullhuman/postcss-purgecss')({
   content: [
-    themeDir + '_layouts/**/*.html',
-    themeDir + '_includes/**/*.html',
-    themeDir + '_includes/**/*.svg',
-    // Specify path to own javascript
-    themeDir + 'assets/js/*.js',
+    './_site/**/*.html'
+    './_site/*.html'
+    './_site/assets/**/*.js'
     './**/**/*.html',
     './**/**/*.svg',
     './**/**/*.md',
