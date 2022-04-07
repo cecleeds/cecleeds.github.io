@@ -12,9 +12,9 @@ const cssnano = require('cssnano')({
 
 const purgecss = require('@fullhuman/postcss-purgecss')({
   content: [
-    './_site/**/*.html'
-    './_site/*.html'
-    './_site/assets/**/*.js'
+    './_site/**/*.html',
+    './_site/*.html',
+    './_site/assets/**/*.js',
     './**/**/*.html',
     './**/**/*.svg',
     './**/**/*.md',
