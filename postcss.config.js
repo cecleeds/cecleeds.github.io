@@ -11,7 +11,7 @@ const cssnano = require('cssnano')({
 });
 
 const purgecss = require('@fullhuman/postcss-purgecss')({
-  content: ['./_layouts/*.html', './_includes/**/*.svg', './pages/**/*.md', './pages/*.md', '**/*.js'],
+  content: ['./_layouts/*.html', './_includes/**/*.svg', './pages/**/*.md', './pages/*.md', '**/*.md', '**/*.js'],
   css: ['city.css'],
   defaultExtractor: content => content.match(/[\w-/.:]+(?<!:)/g) || [],
   safelist: {
