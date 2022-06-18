@@ -11,10 +11,7 @@ const cssnano = require('cssnano')({
 });
 
 const purgecss = require('@fullhuman/postcss-purgecss')({
-  content: [
-    './_layouts/**/*.html', './_includes/**/*.svg', './pages/**/*.md', './pages/**/*.html', './pages/*.md', './pages/*.html', './*.html'
-    '**/*.js'
-  ],
+  content: ['./_layouts/**/*.html', './_includes/**/*.svg', './pages/**/*.md', './pages/**/*.html', './pages/*.md', './pages/*.html', './*.html', '**/*.js'],
   css: ['city.css'],
   defaultExtractor: content => content.match(/[\w-/.:]+(?<!:)/g) || [],
   safelist: ['::-webkit-scrollbar', '::-webkit-scrollbar-thumb', '::-webkit-scroll-track']
