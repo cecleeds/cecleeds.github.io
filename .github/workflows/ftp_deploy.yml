@@ -1,7 +1,33 @@
+name: Deploy to web server
 
-
-
-
+on:
+  push:
+    branches:
+      - gh-pages
 
 env:
   DEPLOY_SITE: true # true = deploy site to cecleeds.co.uk
+
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    # condition - if env.DEPLOY_SITE = true
+    - run: echo '${{ env.DEPLOY_SITE }}'
+    - name: 🚚 Get latest code
+      if: env.DEPLOY_SITE == 'true'
+      uses: actions/checkout@v2
+    
+    - name: 📂 Sync files
+      if: env.DEPLOY_SITE == 'true'
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        server: ftp.cecleeds.co.uk
+        username: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_PASSWORD }}
+
+
+
+
+
