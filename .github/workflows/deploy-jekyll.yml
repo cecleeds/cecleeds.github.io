@@ -102,7 +102,7 @@ jobs:
         if: env.DEPLOY_SITE == 'true'
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          local-dir: ./_site/
+          local-dir: ./_site
           server: ftp.cecleeds.co.uk
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
