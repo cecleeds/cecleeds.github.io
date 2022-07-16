@@ -11,7 +11,8 @@ on:
       - 'README.md'
 # Conditional environmental if's      
 env:
-  UPDATE_NPM: false # false = deploy jekyll , true boolean = update npm 
+  UPDATE_NPM: false # false = deploy jekyll , true boolean = update npm
+  DEPLOY_SITE: false
 
 
 # Build site using jekyll
@@ -89,6 +90,22 @@ jobs:
           # GITHUB_TOKEN secret is set up automatically
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
+        # Push site to web server  
+        # condition - if env.DEPLOY_SITE = true
+      - run: echo '${{ env.DEPLOY_SITE }}'
+      - name: Get latest code
+        if: env.DEPLOY_SITE == 'true'
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+      - name: Sync files
+        if: env.DEPLOY_SITE == 'true'
+        uses: woodcock3/FTP-Deploy-Action@4.3.0
+        with:
+          server-dir: ./_site/
+          server: ftp://ftp.cecleeds.co.uk
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
 
   npm-update:
     name: npm update
@@ -124,21 +141,4 @@ jobs:
   
             [1]: https://github.com/peter-evans/create-pull-request
           branch: update-dependencies
-
-#deploy to host
-#on: push
-#name: Publish Website
-#jobs:
-#  FTP-Deploy-Action:
-#    name: FTP-Deploy-Action
-#    runs-on: ubuntu-latest
-#    steps:
-#    - uses: actions/checkout@v2.1.0
-#      with:
-#        fetch-depth: 2
-#    - name: FTP-Deploy-Action
-#      uses: woodcock3/FTP-Deploy-Action
-#      with:
-#        ftp-server: ftp://ftp.cecleeds.co.uk
-#        ftp-username: ${{ secrets.FTP_USER }}
-#        ftp-password: ${{ secrets.FTP_PASSWORD }}
+      
