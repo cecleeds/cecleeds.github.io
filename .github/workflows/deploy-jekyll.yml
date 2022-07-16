@@ -9,7 +9,7 @@ on:
       - master
     paths-ignore:
       - 'README.md'
-# Conditional environmental if's      
+# Conditional environmental if's.    
 env:
   UPDATE_NPM: false # false = deploy jekyll , true boolean = update npm
 
