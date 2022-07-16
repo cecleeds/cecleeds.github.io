@@ -124,3 +124,21 @@ jobs:
   
             [1]: https://github.com/peter-evans/create-pull-request
           branch: update-dependencies
+
+#deploy to host
+#on: push
+#name: Publish Website
+#jobs:
+#  FTP-Deploy-Action:
+#    name: FTP-Deploy-Action
+#    runs-on: ubuntu-latest
+#    steps:
+#    - uses: actions/checkout@v2.1.0
+#      with:
+#        fetch-depth: 2
+#    - name: FTP-Deploy-Action
+#      uses: woodcock3/FTP-Deploy-Action
+#      with:
+#        ftp-server: ftp://ftp.cecleeds.co.uk
+#        ftp-username: ${{ secrets.FTP_USER }}
+#        ftp-password: ${{ secrets.FTP_PASSWORD }}
