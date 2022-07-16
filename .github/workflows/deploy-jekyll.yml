@@ -100,7 +100,7 @@ jobs:
           fetch-depth: 2
       - name: Sync files
         if: env.DEPLOY_SITE == 'true'
-        uses: woodcock3/FTP-Deploy-Action@4.3.0
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           server-dir: ./_site/
           server: ftp://ftp.cecleeds.co.uk
