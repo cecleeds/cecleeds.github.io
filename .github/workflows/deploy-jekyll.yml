@@ -12,7 +12,7 @@ on:
 # Conditional environmental if's      
 env:
   UPDATE_NPM: false # false = deploy jekyll , true boolean = update npm
-  DEPLOY_SITE: false
+  DEPLOY_SITE: true # true = deploy site to cecleeds.co.uk
 
 
 # Build site using jekyll
