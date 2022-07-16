@@ -103,7 +103,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           server-dir: ./_site/
-          server: ftp://ftp.cecleeds.co.uk
+          server: ftp.cecleeds.co.uk
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
 
