@@ -90,22 +90,6 @@ jobs:
           # GITHUB_TOKEN secret is set up automatically
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-        # Push site to web server  
-        # condition - if env.DEPLOY_SITE = true
-      - run: echo '${{ env.DEPLOY_SITE }}'
-      - name: Get latest code
-        if: env.DEPLOY_SITE == 'true'
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 2
-      - name: Sync files
-        if: env.DEPLOY_SITE == 'true'
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
-        with:
-          local-dir: _site/
-          server: ftp.cecleeds.co.uk
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASSWORD }}
 
   npm-update:
     name: npm update
