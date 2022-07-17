@@ -14,7 +14,7 @@ office:
 pastor:
   - name: Michael Luehrmann
     phone: <a aria-label="Phone number zero seven five eight four four three seven three eight zero" href="tel:+447584437380">07584437380</a>
-    mailing: <script>contact1("pastor","cecleeds",10,"")</script><noscript>You must enable JavaScript to view this text.</noscript>
+    mailing: <script>contact1("office","cecleeds",10,"")</script><noscript>You must enable JavaScript to view this text.</noscript>
 
 safeguard_lead:
   - name: Lianna Smith
