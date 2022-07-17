@@ -1,5 +1,5 @@
 ---
-title: "Sunday's - Crèche, Explorers & Fuel"
+title: "Sunday's - Tots, Explorers & Fuel"
 collection_type: "kids-youth"
 layout: sectioned-page
 container-size: medium
@@ -12,7 +12,6 @@ impact-font:
 
 We love kids and want them to love coming to church. Every Sunday morning service we provide fun filled activity sessions for the kids. The kids join us for the first bit of the service and then go out for their classes.
 
-0-2 yrs | Crèche
 2-4 yrs | Tots
 5-11 yrs | Explorers
 12-14 yrs | Fuel
