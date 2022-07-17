@@ -12,7 +12,7 @@ on:
 # Conditional environmental if's.    
 env:
   UPDATE_NPM: false # false = deploy jekyll , true boolean = update npm
-
+  DEPLOY_SITE: true
 
 # Build site using jekyll
 jobs:
@@ -89,6 +89,16 @@ jobs:
           # GITHUB_TOKEN secret is set up automatically
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
+      # Send files to host server
+      - run: echo ${{ env.UPDATE_NPM }}
+      - name: Sync files
+        if: env.DEPLOY_SITE == 'true'
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          local-dir: ./_site/
+          server: ftp.cecleeds.co.uk
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
 
   npm-update:
     name: npm update
