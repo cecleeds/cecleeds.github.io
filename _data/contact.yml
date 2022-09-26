@@ -28,7 +28,7 @@ deputy_safeguard:
  
 citykidsmail: <script>contact1("hello","cecleeds",10,"")</script><noscript>You must enable JavaScript to view this text.</noscript>
 treasurer: <script>contact1("colin.bainbridge","cecleeds",10,"")</script><noscript>You must enable JavaScript to view this text.</noscript>
-studentmail: <a class="button accent-button" href="javascript:contact1('doctorndentist','gmail',0,'');">Email student co-ordinator</a>
+studentmail: <a class="button accent-button" href="javascript:contact1('andrewkassell','yahoo',0,'');">Email student co-ordinator</a>
 
 # Leaders
 elders:
