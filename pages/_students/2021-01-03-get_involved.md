@@ -5,6 +5,7 @@ layout: sectioned-page
 container-size: medium
 heading: 1
 href: https://cecleeds.churchsuite.com/forms/6og31t0v
+bg-color: alternate-background
 ---
 
 ## Christian Union
