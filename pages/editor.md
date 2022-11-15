@@ -5,4 +5,6 @@ permalink: /editor/
 bg-color: alternate-background
 ---
 
-<a class="button" href="https://cecleeds.netlify.app/admin/">Editor login</a>
+<div class="text-center">
+  <a class="button accent-button" href="https://cecleeds.netlify.app/admin/">Editor login</a>
+</div>
