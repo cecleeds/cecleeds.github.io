@@ -62,7 +62,7 @@ jobs:
           updateFile: true
       - name: Update deployment url
         if: env.UPDATE_NPM != 'true'
-        uses: woodcock3/yaml-update-action@master
+        uses: woodcox/yaml-update-action@master
         with:
           valueFile: '_config.yml'
           propertyPath: 'environment'
@@ -122,7 +122,7 @@ jobs:
       # - run: npm update # update packages
       - name: pull request on npm update
         if: env.UPDATE_NPM == 'true'
-        uses: woodcock3/create-pull-request@v3
+        uses: woodcox/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: Update dependencies
