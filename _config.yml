@@ -6,7 +6,7 @@ safe: false
 
 
 ### site serving configuration ###
-remote_theme: woodcock3/city-jekyll
+remote_theme: woodcox/city-jekyll
 exclude: [CNAME, README.md, npm.md, SECURITY.md, LICENSE.md, .gitignore, package.json, package-lock.json, postcss.config.js, .browserslistrc]
 permalink: /:title ## disables post output
 url: "https://cecleeds.github.io"
