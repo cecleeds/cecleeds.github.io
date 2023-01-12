@@ -53,7 +53,7 @@ jobs:
       # e.g. propertyPath: 'path.to.nested.abc' = to change '123'
       - name: Update yaml secret
         if: env.UPDATE_NPM != 'true'
-        uses: woodcock3/yaml-update-action@master
+        uses: woodcox/yaml-update-action@master
         with:
           valueFile: '_config.yml'
           propertyPath: 'jekyll_get_json.0.json'
