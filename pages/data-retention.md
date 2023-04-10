@@ -70,17 +70,3 @@ Accident books, and records and reports of accidents (for Adults) | 3 years afte
 Accident books, and records and reports of accidents (for children) | three years after the child attains 18 years     (RIDDOR 1985)
 Health records (Management of Health and Safety at Work Regulations) | 6 months from date of leaving employment
 Health records where reason for termination of employment is connected with health, including stress related illness | 3 years from date of leaving employment (Limitation period for personal injury) claims)
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
